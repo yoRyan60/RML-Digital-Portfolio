@@ -1,0 +1,17 @@
+@font-face { 
+    font-family: "DePixelHalbfett";
+    src: local("DePixelHalbfett"), url("./fonts/DePixelHalbfett.ttf"), 
+    format("truetype");
+} 
+
+@font-face { 
+    font-family: "Smallest Pixel-7";
+    src: local("Smallest Pixel-7"), url("./fonts/smallest_pixel-7.ttf"), 
+    format("truetype");
+} 
+
+@font-face { 
+    font-family: "Retro Computer";
+    src: local("Retro Computer"), url("./fonts/retro_computer_personal_use.ttf"), 
+    format("truetype");
+} 
