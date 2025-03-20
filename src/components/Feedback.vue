@@ -32,7 +32,7 @@ export default {
                         Just click on the icon below to access the form.
                     </p>
                     <br>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe91vrM13I7yigw6adOSZY6OruocGFpQ2RAAavBlKNSj-PNXw/viewform?usp=sf_link" target="_blank"><img class="img-center" src="/src/assets/images/clipboardpixel_icon.png"></a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe91vrM13I7yigw6adOSZY6OruocGFpQ2RAAavBlKNSj-PNXw/viewform" target="_blank"><img class="img-center" src="/src/assets/images/clipboardpixel_icon.png"></a>
                 </div>
             </article>
         </div>

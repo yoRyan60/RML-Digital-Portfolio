@@ -51,40 +51,20 @@ export default {
         </div>
         <div class="container-description-center">
             <article> 
-                <h2 style="font-family: Smallest Pixel-7; color: greenyellow; font-size: 30px;">Tasks/Outputs done for OJT</h2>
+                <h2 style="font-family: Smallest Pixel-7; color: greenyellow; font-size: 30px;">Tasks Done during OJT</h2>
                 <div class="text-wrapper">
                     <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
-                        Here's the tasks I've done for the company. 
-                        Mainly being test plans, and on the side I've also made findings I've discovered while testing the system.
+                        I mainly did things like regression tests plans where you'd simply test parts of the system and check if they doing what they're suppose to.
+                        Another regression test plan to list all the showstoppers, meaning if said function causes the system to view an error which disrupts user experience.
                     </p>
                     <br>
-                    <p style="font-family: DePixelHalbfett; color: greenyellow; font-size: 12px; font-style: italic;"> 
-                        Click the dots on the slider to view the images.
+                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                        As proof that I've completed my OJT at this company, there's a image of the certificate below:
                     </p>
+                    <br>
+                    <img class="img-center" style="width: 50%;" src="/src/assets/images/InternshipLearning_images/OJT_certificate.jpg">
                 </div>
             </article>
-        </div>
-        <div class="container-description-center">
-            <section class="slider-container">
-                <div class="slider-wrapper">
-                    <div class="slider">
-                        <img id="slide-1" src="/src/assets/images/InternshipLearning_images/regressiontest1.jpg" alt="regression test plan 1">
-                        <img id="slide-2" src="/src/assets/images/InternshipLearning_images/regressiontest2.jpg" alt="regression test plan 2">
-                        <img id="slide-3" src="/src/assets/images/InternshipLearning_images/regressiontest3.jpg" alt="regression test plan 3">
-                        <img id="slide-4" src="/src/assets/images/InternshipLearning_images/regressiontest4.jpg" alt="regression test plan 4">
-                        <img id="slide-5" src="/src/assets/images/InternshipLearning_images/regressiontest5.jpg" alt="regression test plan (showstoppers) 5">
-                        <img id="slide-6" src="/src/assets/images/InternshipLearning_images/regressiontest6.jpg" alt="regression test plan (showstoppers) 6">
-                    </div>
-                    <div class="slider-nav">
-                        <a href="#slide-1"></a>
-                        <a href="#slide-2"></a>
-                        <a href="#slide-3"></a>
-                        <a href="#slide-4"></a>
-                        <a href="#slide-5"></a>
-                        <a href="#slide-6"></a>
-                    </div>
-                 </div>
-            </section>
         </div>
     </main>
 </template>
