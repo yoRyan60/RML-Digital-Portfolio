@@ -27,7 +27,8 @@ export default {
                 <div class="text-wrapper">
                     <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
                         Back in college, I've worked with a group for capstone. 
-                        Long story short, it's a website called GiveMore. A donation platform and record-keeping system for charities. 
+                        Long story short, it's a website called GiveMore. A donation platform and record-keeping system for charities.
+                        It's made with the following, NextJS, React, TypeScript, Tailwind CSS, and Node.js. 
                     </p>
                     <br>
                     <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
@@ -128,8 +129,8 @@ export default {
                     </p>
                 </div>
                 <div style="justify-self: center;">
-                    <img class="img-left" src="/src/assets/images/GenericSpaceShooter (GIF-1).gif" style="width:400px;">
-                    <img class="img-left" src="/src/assets/images/GenericSpaceShooter (GIF-2).gif" style="width:400px;">
+                    <img class="img-left" src="/src/assets/images/GenericSpaceShooter (GIF-1).gif" style="width: 350px;">
+                    <img class="img-left" src="/src/assets/images/GenericSpaceShooter (GIF-2).gif" style="width: 350px;">
                 </div>
             </article>
         </div>

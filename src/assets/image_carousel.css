@@ -50,4 +50,62 @@
     background-color: rgb(36, 209, 36);
 }
 
+@media(width <= 1000px){
+    .slider-wrapper{
+        position: relative;
+        max-width: 48rem;
+        margin: 0 auto;
+    }
+    .slider-nav{
+        display: flex;
+        column-gap: 1rem;
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+        background-color: black;
+        padding: 8px;
+        border-radius: 2rem;
+    }
+    .slider-nav a{
+        width: 0.8rem;
+        height: 0.8rem;
+        border-radius: 50%;
+        background-color: white;
+        opacity: 0.75;
+        transition: background-color ease 250ms;  
+        scroll-padding-top: 4rem;
+    }
+}
+
+@media(width <= 600px){
+    .slider-wrapper{
+        position: relative;
+        max-width: 24rem;
+        margin: 0 auto;
+    }
+    .slider-nav{
+        display: flex;
+        column-gap: 1rem;
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+        background-color: black;
+        padding: 8px;
+        border-radius: 2rem;
+    }
+    .slider-nav a{
+        width: 0.8rem;
+        height: 0.8rem;
+        border-radius: 50%;
+        background-color: white;
+        opacity: 0.75;
+        transition: background-color ease 250ms;  
+        scroll-padding-top: 4rem;
+    }
+}
+
 

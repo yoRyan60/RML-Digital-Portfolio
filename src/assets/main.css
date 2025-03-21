@@ -111,6 +111,15 @@ nav{
   position: relative;
 }
 
+.nav-title{
+  color: black;
+  list-style-type: none;
+  display: inline;
+  margin: -0.5px;
+  padding: 5px;
+  font-size: 12px;
+}
+
 /*.nav::after, .nav::before{
   content: "";
   position: absolute;
@@ -135,7 +144,7 @@ li{
   display: inline;
   margin: -0.5px;
   padding: 5px;
-  
+  font-size: 12px;
 }
 li:hover{
   display: inline;
@@ -321,42 +330,9 @@ footer{
   margin: 0;
 }
 
-@media (max-width: 300px) {
-  .grid-container{
-    margin-top: 15px;
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 20px;
-    padding: 10px;
-    max-width: 500px;
-    width: 100%;
-    justify-self: center;
-  }
-  .home-text{
-    opacity: 0;
-    font-size: 12px;
-    padding: 10px;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.35);
-    transition: background-color 0.5s, color 0.5s;
-    animation:
-      fade-in 1s, step-end infinite;
-    animation-delay: 1.1s;
-    animation-fill-mode: forwards;
-  }
-  li{
-    color: black;
-    list-style-type: none;
-    display: inline;
-    margin: -0.5px;
-    padding: 5px;
-    font-size: 10px;
-  }
-}
-
-@media (width <= 600px) {
+@media (width <= 1000px) {
   .typewritter-effect{
-    font-size: 14px;
+    font-size: 16px;
     letter-spacing: 5px;
     border-right: 10px solid;
     width: 100%;
@@ -372,7 +348,7 @@ footer{
     grid-template-columns: auto auto;
     gap: 20px;
     padding: 10px;
-    max-width: 500px;
+    max-width: 700px;
     width: 100%;
     justify-self: center;
   }
@@ -409,16 +385,148 @@ footer{
     animation-delay: 0.2s;
     animation-fill-mode: forwards;
   }
-  
+  .nav-title{
+    color: black;
+    list-style-type: none;
+    display: inline;
+    margin: -0.5px;
+    padding: 5px;
+    font-size: 8px;
+  }
   li{
     color: black;
     list-style-type: none;
     display: inline;
     margin: -0.5px;
     padding: 5px;
-    font-size: 10px;
+    font-size: 8px;
   }
 }
+
+@media (width <= 600px) {
+  nav{
+    background-color: rgb(124, 193, 101);
+    width: 100%;
+    display: inline-block;
+  }
+
+  .typewritter-effect{
+    font-size: 12.5px;
+    letter-spacing: 5px;
+    border-right: 10px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+      typing 1.5s steps(27),
+      cursor .4s step-end infinite alternate;
+  }
+  .grid-container{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding: 10px;
+    max-width: 500px;
+    width: 100%;
+    justify-self: center;
+  }
+  .home-text{
+    opacity: 0;
+    font-size: 10px;
+    padding: 10px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    transition: background-color 0.5s, color 0.5s;
+    animation:
+      fade-in 1s, step-end infinite;
+    animation-delay: 1.1s;
+    animation-fill-mode: forwards;
+  }
+  .extra-text{
+    font-size: 16px;
+    font-family: Smallest Pixel-7;
+  }
+  .home-container-description{
+    opacity: 0;
+    font-size: 16px; 
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.50);
+    justify-self: center;
+    justify-content: center;
+    font-style: italic;
+    animation:
+      fade-in 1s, step-end infinite;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+  }
+  .nav-title{
+    color: black;
+    list-style-type: none;
+    display: inline;
+    margin: -0.5px;
+    padding: 5px;
+    font-size: 8px;
+  }
+  li{
+    color: black;
+    list-style-type: none;
+    display: inline;
+    margin: -0.5px;
+    padding: 5px;
+    font-size: 8px;
+  }
+  .text-wrapper{  
+    overflow: unset;
+  }
+  
+  .container-description-center{
+    opacity: 0;
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    max-width: 1350px;
+    height: 100%;
+    margin: 40px;
+    background-color: rgba(0, 0, 0, 0.50);
+    justify-self: center;
+    text-align: center;
+    animation:
+    fade-in 1s,
+    move-up 1s ease-in;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  .img-left{
+    float: left;
+    padding: 20px;
+    margin-right: 0;
+    width: 50%;
+    height: auto;
+  }
+  
+  .img-right{
+    float: right;
+    padding: 20px;
+    margin-left: 0;
+    width: 50%;
+    height: auto;
+  }
+  
+  .img-center{
+    padding: 20px;
+    margin-left: 0;
+    width: 50%;
+    height: auto;
+    justify-self: center;
+  }
+}
+
 /* All the keyframes/animations for the website */
 
 /* Home text options fade in on load */
