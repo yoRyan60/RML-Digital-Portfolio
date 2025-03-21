@@ -7,7 +7,7 @@ import { RouterLink } from 'vue-router';
   <nav class="nav" style="font-family: DePixelHalbfett; font-size: 12px; color: black;">
     <ul>
         <img class="img-logo" src="/src/assets/images/LimRyan_Portfolio_Logo_Inverted.png" alt="Logo">
-        <li class="nav-title">RML Digital Portfolio</li>
+        <p class="nav-title">RML Digital Portfolio</p>
         <span>\</span>
         <RouterLink to="/"><li> Home </li></RouterLink>
         <span>\</span>

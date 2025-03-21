@@ -60,7 +60,7 @@ export default {
         </div>
         <div class="container-description-left">
             <article> 
-                <img class="img-left" src="/src/assets/images/game_controller_pixel_icon.png">
+                <img class="img-left" src="/src/assets/images/pixelquestionmark_icon.png">
                 <h2 style="font-family: Smallest Pixel-7; color: greenyellow; font-size: 30px;">Next steps for me</h2>
                 <div class="text-wrapper">
                     <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;;"> 
