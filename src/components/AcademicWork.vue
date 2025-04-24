@@ -23,20 +23,20 @@ export default {
         <div class="container-description-left">
             <article> 
                 <img class="img-left" src="/src/assets/images/GiveMore_Logo.png" style="width: 350px">
-                <h2 style="font-family: Smallest Pixel-7; color: greenyellow; font-size: 30px;">Capstone - GiveMore</h2>
+                <h2 class="container-description-header">Capstone - GiveMore</h2>
                 <div class="text-wrapper">
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                    <p class="container-description-text"> 
                         Back in college, I've worked with a group for capstone. 
                         Long story short, it's a website called GiveMore. A donation platform and record-keeping system for charities.
                         It's made with the following, NextJS, React, TypeScript, Tailwind CSS, and Node.js. 
                     </p>
                     <br>
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                    <p class="container-description-text"> 
                         Though like most capstones it obviously is not fully functional, most especially the payment part as we don't have much permissions to make it actual work, since we'd need to be a real business, but we're just students so that's a no. 
                         But apart from that the website works well.
                     </p>
                     <br>
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                    <p class="container-description-text"> 
                         You can check out the website here:
                     </p>
                     <br>
@@ -48,18 +48,18 @@ export default {
         </div>
         <div class="container-description-center">
             <article> 
-                <h2 style="font-family: Smallest Pixel-7; color: greenyellow; font-size: 30px;">What I've done in my group's Capstone</h2>
+                <h2 class="container-description-header">What I've done in my group's Capstone</h2>
                 <div class="text-wrapper">
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                    <p class="container-description-text"> 
                         What I mainly did in out website was the Statistics part, where it shows things like, total cash donations, in-kind donations, etc. 
                         There's things like Yearly, Monthly, Daily, and Custom filters allowing the user to display data based on the given parameters. 
                     </p>
                     <br>
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                    <p class="container-description-text"> 
                         The data here is obtained from our database and is then displayed here.
                     </p>
                     <br>
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                    <p class="container-description-text"> 
                         Also all of this was possible thanks to ReCharts, the library I used to create these charts containing data from out database. Check their stuff out in the link below:
                     </p>
                     <br>
@@ -67,7 +67,7 @@ export default {
                         <a href="https://recharts.org/en-US/" target="_blank">ReCharts</a>
                     </p>
                     <br>
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                    <p class="container-description-text"> 
                         Here's some screeshots of said statistics displaying their respective data:
                     </p>
                     <br>
@@ -107,26 +107,33 @@ export default {
         </div>
         <div class="container-description-left">
             <article> 
-                <img class="img-left" src="/src/assets/images/GenericSpaceShooter_Title.png">
-                <h2 style="font-family: Smallest Pixel-7; color: greenyellow; font-size: 30px;">Previous Final Project - Making a Game</h2>
+                <img class="img-right" src="/src/assets/images/GenericSpaceShooter_Title.png">
+                <h2 class="container-description-header">Previous Final Project - Making a Game</h2>
                 <div class="text-wrapper">
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;;"> 
+                    <p class="container-description-text"> 
                         Generic Space Shooter was a project made around my 2nd term in 1st year college. 
                         The subject was called FUNPROG (Fundamental Programming). 
                         And our professor decided that the final project would be to make a game with the use of an IDE called Visual Studio, which uses the C# programming language.
                     </p>
                     <br>
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                    <p class="container-description-text"> 
                         The project itself was called Object-Oriented Programming (OOP). 
                         Now I may be a gamer, but I've never actually made a game. Unless, you count one that I made before using Scratch.
                     </p>
                     <br>
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                    <p class="container-description-text"> 
                         The gameplay was pretty straightforward. You got 3 lives, use WASD to move, and the spacebar to shoot. 
                         You get points for destroying enemies. Destroy as many enemies as you can as they'll endlessly spawn.
                         As the score goes up, enemies move and shoot faster, there's a limit to how fast they can be.
                         And the highest score is saved.
                     </p>
+                    <br>
+                    <p class="container-description-text"> 
+                        I have revisited this game recently and decided to rewrite it but this time in Unity. 
+                        Not that it's better there but it will streamline the experience of making it since it'll be in an actual game engine. 
+                        So I guess...stay tuned?
+                    </p>
+                    <br>
                 </div>
                 <div style="justify-self: center;">
                     <img class="img-left" src="/src/assets/images/GenericSpaceShooter (GIF-1).gif" style="width: 350px;">

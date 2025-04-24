@@ -22,15 +22,15 @@ export default {
         </div>
         <div class="container-description-left">
             <article> 
-                <img class="img-left" src="/src/assets/images/InternshipLearning_images/dona_alejandra_inc_logo.jpg" style="width: 350px">
-                <h2 style="font-family: Smallest Pixel-7; color: greenyellow; font-size: 30px;">OJT - On the Job Traning</h2>
+                <img class="img-left" src="/src/assets/images/InternshipLearning_images/dona_alejandra_inc_logo.jpg" style="width: 380px">
+                <h2 class="container-description-header">OJT - On the Job Traning</h2>
                 <div class="text-wrapper">
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                    <p class="container-description-text"> 
                         So at this time I have applied for internship (OJT) for a company called Doña Alejandra Incorporated (also known as DAI). 
                         And the position I'm in was Quality Assurance Intern (QA), whose job is in short, to perform tests on a system via the use of a test plan.
                     </p>
                     <br>
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                    <p class="container-description-text"> 
                         A bit of background on the company; 
                         In the rapidly changing field of document management, 
                         DAI has established the gold standard by providing the most dependable, 
@@ -39,7 +39,7 @@ export default {
                         Additionally, it is capable of being integrated to increase efficacy with external business applications.
                     </p>
                     <br>
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                    <p class="container-description-text"> 
                         Go check them out here:
                     </p>
                     <br>
@@ -51,18 +51,18 @@ export default {
         </div>
         <div class="container-description-center">
             <article> 
-                <h2 style="font-family: Smallest Pixel-7; color: greenyellow; font-size: 30px;">Tasks Done during OJT</h2>
+                <h2 class="container-description-header">Tasks Done during OJT</h2>
                 <div class="text-wrapper">
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                    <p class="container-description-text"> 
                         I mainly did things like regression tests plans where you'd simply test parts of the system and check if they doing what they're suppose to.
                         Another regression test plan to list all the showstoppers, meaning if said function causes the system to view an error which disrupts user experience.
                     </p>
                     <br>
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                    <p class="container-description-text"> 
                         As proof that I've completed my OJT at this company, there's a image of the certificate below:
                     </p>
                     <br>
-                    <img class="img-center" style="width: 50%;" src="/src/assets/images/InternshipLearning_images/OJT_certificate.jpg">
+                    <img class="img-center" style="width: 65%;" src="/src/assets/images/InternshipLearning_images/OJT_certificate.jpg">
                 </div>
             </article>
         </div>

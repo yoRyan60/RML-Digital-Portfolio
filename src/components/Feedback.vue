@@ -22,13 +22,13 @@ export default {
         </div>
         <div class="container-description-center">
             <article> 
-                <h2 style="font-family: Smallest Pixel-7; color: greenyellow; font-size: 30px;">Regarding this website</h2>
+                <h2 class="container-description-header">Regarding this website</h2>
                 <div class="text-wrapper">
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                    <p class="container-description-text"> 
                         If you want to leave a comment regarding my portfolio, or even just questions about me or just random rambling, type it in the given form below.
                     </p>
                     <br>
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;"> 
+                    <p class="container-description-text"> 
                         Just click on the icon below to access the form.
                     </p>
                     <br>

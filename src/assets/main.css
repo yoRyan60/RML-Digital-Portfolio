@@ -286,6 +286,18 @@ article:hover .selector{
   animation-fill-mode: forwards;
 }
 
+.container-description-header{
+  font-family: Smallest Pixel-7;
+  font-size: 30px;
+  color: greenyellow;
+}
+
+.container-description-text{
+  font-size: 12px;
+  font-family: DePixelHalbfett;
+  color: white
+}
+
 .single-item{
   grid-column-start: 1;
   grid-column-end: 3;
@@ -411,7 +423,21 @@ footer{
     linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(174, 174, 174, 0.1), rgba(174, 174, 174, 0.1),
      rgb(124, 193, 101)), url("./images/KeyboardBackground.jpg");
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
+    z-index: -1;
+  }
+  body::before{
+    padding-bottom: 100%;
+  }
+  .container-description-header{
+    font-family: Smallest Pixel-7;
+    font-size: 22px;
+    color: greenyellow;
+  }
+  .container-description-text{
+    font-size: 9.5px;
+    font-family: DePixelHalbfett;
+    color: white
   }
 }
 
@@ -516,24 +542,24 @@ footer{
 
   .img-left{
     float: left;
-    padding: 20px;
+    padding: 10px;
     margin-right: 0;
-    width: 50%;
+    width: 30%;
     height: auto;
   }
   
   .img-right{
     float: right;
-    padding: 20px;
     margin-left: 0;
-    width: 50%;
+    padding: 10px;
+    width: 30%;
     height: auto;
   }
   
   .img-center{
-    padding: 20px;
+    padding: 10px;
     margin-left: 0;
-    width: 50%;
+    width: 30%;
     height: auto;
     justify-self: center;
   }
@@ -546,6 +572,7 @@ footer{
   .nav-divider{
     font-size: 10px;
   }
+
   body{
     background-image:
     linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(174, 174, 174, 0.1), rgba(174, 174, 174, 0.1),
@@ -554,8 +581,20 @@ footer{
     background-attachment: fixed;
     z-index: -1;
   }
-    body::before{
+  body::before{
     padding-bottom: 100%;
+  }
+
+  .container-description-text{
+    font-size: 9.5px;
+    font-family: DePixelHalbfett;
+    color: white
+  }
+
+  .container-description-header{
+    font-family: Smallest Pixel-7;
+    font-size: 22px;
+    color: greenyellow;
   }
 }
 
