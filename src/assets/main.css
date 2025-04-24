@@ -391,7 +391,7 @@ footer{
     display: inline;
     margin: -0.5px;
     padding: 5px;
-    font-size: 8px;
+    font-size: 9px;
   }
   li{
     color: black;
@@ -399,7 +399,10 @@ footer{
     display: inline;
     margin: -0.5px;
     padding: 5px;
-    font-size: 8px;
+    font-size: 9px;
+  }
+  .nav-divider{
+    font-size: 9px;
   }
 }
 
@@ -412,7 +415,7 @@ footer{
 
   .typewritter-effect{
     font-size: 12.5px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     border-right: 10px solid;
     width: 100%;
     white-space: nowrap;
@@ -424,7 +427,7 @@ footer{
   .grid-container{
     margin-top: 15px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     gap: 20px;
     padding: 10px;
     max-width: 500px;
@@ -470,7 +473,7 @@ footer{
     display: inline;
     margin: -0.5px;
     padding: 5px;
-    font-size: 8px;
+    font-size: 8.5px;
   }
   li{
     color: black;
@@ -478,7 +481,7 @@ footer{
     display: inline;
     margin: -0.5px;
     padding: 5px;
-    font-size: 8px;
+    font-size: 8.5px;
   }
   .text-wrapper{  
     overflow: unset;
@@ -524,6 +527,15 @@ footer{
     width: 50%;
     height: auto;
     justify-self: center;
+  }
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 10px;
+  }
+  .nav-divider{
+    font-size: 10px;
   }
 }
 

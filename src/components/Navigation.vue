@@ -8,11 +8,11 @@ import { RouterLink } from 'vue-router';
     <ul>
         <img class="img-logo" src="/src/assets/images/LimRyan_Portfolio_Logo_Inverted.png" alt="Logo">
         <p class="nav-title">RML Digital Portfolio</p>
-        <span>\</span>
+        <span class="nav-divider">\</span>
         <RouterLink to="/"><li> Home </li></RouterLink>
-        <span>\</span>
+        <span class="nav-divider">\</span>
         <RouterLink to="/About"><li> About </li></RouterLink>
-        <span>\</span>
+        <span class="nav-divider">\</span>
     </ul>
   </nav>
 </template>
