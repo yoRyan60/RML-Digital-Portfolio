@@ -411,7 +411,7 @@ footer{
     linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(174, 174, 174, 0.1), rgba(174, 174, 174, 0.1),
      rgb(124, 193, 101)), url("./images/KeyboardBackground.jpg");
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
   }
 }
 
@@ -552,6 +552,10 @@ footer{
      rgb(124, 193, 101)), url("./images/KeyboardBackground.jpg");
     background-size: cover;
     background-attachment: fixed;
+    z-index: -1;
+  }
+    body::before{
+    padding-bottom: 100%;
   }
 }
 
