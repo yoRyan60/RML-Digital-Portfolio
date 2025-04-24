@@ -69,7 +69,7 @@ export default {
                 <img class="img-left" src="/src/assets/images/game_controller_pixel_icon.png">
                 <h2 class="container-description-header">Hobbies</h2>
                 <div class="text-wrapper">
-                    <p style="font-family: DePixelHalbfett; color: white; font-size: 12px;;"> 
+                    <p class="container-description-text"> 
                         Same with my interest in technology is how much I also liked gaming a lot. Back then it's games on a Gameboy, Nintendo DS, then nowadays on a PC. 
                         This is what I usually do a lot on a daily basis.
                     </p>

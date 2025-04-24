@@ -62,7 +62,7 @@ export default {
                         As proof that I've completed my OJT at this company, there's a image of the certificate below:
                     </p>
                     <br>
-                    <img class="img-center" style="width: 65%;" src="/src/assets/images/InternshipLearning_images/OJT_certificate.jpg">
+                    <img class="img-center" style="width: 70%;" src="/src/assets/images/InternshipLearning_images/OJT_certificate.jpg">
                 </div>
             </article>
         </div>
