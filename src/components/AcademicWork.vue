@@ -32,11 +32,6 @@ export default {
                     </p>
                     <br>
                     <p class="container-description-text"> 
-                        Though like most capstones it obviously is not fully functional, most especially the payment part as we don't have much permissions to make it actual work, since we'd need to be a real business, but we're just students so that's a no. 
-                        But apart from that the website works well.
-                    </p>
-                    <br>
-                    <p class="container-description-text"> 
                         You can check out the website here:
                     </p>
                     <br>
@@ -68,7 +63,7 @@ export default {
                     </p>
                     <br>
                     <p class="container-description-text"> 
-                        Here's some screeshots of said statistics displaying their respective data:
+                        Here's some screenshots of said statistics displaying their respective data:
                     </p>
                     <br>
                     <p style="font-family: DePixelHalbfett; color: greenyellow; font-size: 12px; font-style: italic;"> 
@@ -112,26 +107,16 @@ export default {
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
                         Generic Space Shooter was a project made around my 2nd term in 1st year college. 
-                        The subject was called FUNPROG (Fundamental Programming). 
-                        And our professor decided that the final project would be to make a game with the use of an IDE called Visual Studio, which uses the C# programming language.
+                        We needed to make a game with the use of an IDE called Visual Studio, which uses the C<span style="font-family: Smallest Pixel-7; font-size: 20px;">#</span> programming language.
                     </p>
                     <br>
                     <p class="container-description-text"> 
-                        The project itself was called Object-Oriented Programming (OOP). 
-                        Now I may be a gamer, but I've never actually made a game. Unless, you count one that I made before using Scratch.
+                        The project itself was called Object-Oriented Programming (OOP).                      
                     </p>
                     <br>
                     <p class="container-description-text"> 
                         The gameplay was pretty straightforward. You got 3 lives, use WASD to move, and the spacebar to shoot. 
-                        You get points for destroying enemies. Destroy as many enemies as you can as they'll endlessly spawn.
-                        As the score goes up, enemies move and shoot faster, there's a limit to how fast they can be.
-                        And the highest score is saved.
-                    </p>
-                    <br>
-                    <p class="container-description-text"> 
-                        I have revisited this game recently and decided to rewrite it but this time in Unity. 
-                        Not that it's better there but it will streamline the experience of making it since it'll be in an actual game engine. 
-                        So I guess...stay tuned?
+                        Then a simple scoring system as a mechanic to keep track of how long you've survived.
                     </p>
                     <br>
                 </div>
@@ -140,6 +125,13 @@ export default {
                     <img class="img-left" src="/src/assets/images/GenericSpaceShooter (GIF-2).gif" style="width: 350px;">
                 </div>
             </article>
+        </div>
+        <div class="back-button-container">
+            <button @click="gotoHome" style="all: unset;">
+                <article class="home-text" style="width: 350px;">
+                    <p class="extra-text" style="text-align: center;"> << Back to the homepage</p>
+                </article>
+            </button>
         </div>
     </main>
 </template>

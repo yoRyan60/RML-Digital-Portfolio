@@ -26,17 +26,13 @@ export default {
                 <h2 class="container-description-header">What I've learned</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
-                        Similar to things in high school when it comes to academics, submit stuff on time. 
-                        If you can finish it earlier the better, because if you do, you'll be able to have more time to yourself until the next assignment.
-                    </p>
-                    <br>
-                    <p class="container-description-text"> 
-                        Every now and then, it doesn't hurt to become creative in some requirements. 
-                        Because this is the first and last time I'm doing it anyway so I'll do my best. 
+                        Simply submit stuff on time. 
+                        The earlier the better, since you'll be able to have more time to yourself until the next assignment.
                     </p>
                     <br>
                     <p class="container-description-text"> 
                         Being diligent in my workload allowed me to finish them not only quickly, but also finish it with quality.
+                        And every now and then, it doesn't hurt to be creative. It's what makes my less monochrome and more vivid.
                     </p>
                 </div>
             </article>
@@ -47,16 +43,12 @@ export default {
                 <h2 class="container-description-header">College Life</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
-                        I know that out there in other colleges, there are in fact students who either solo or are required to make their thesis on their own. 
-                    </p>
-                    <br>
-                    <p class="container-description-text">
-                        To anyone who solos their thesis, I salute to them, because man that ain't gonna be easy but if they can handle it, that's what matters the most.
+                        Most of the time I tend to do academics on my own. Sound sad I know, but it did help me avoid being to reliant on others.
                     </p>
                     <br>
                     <p class="container-description-text"> 
                         As for me, my friend circle wasn't much, mainly just my mates in capstone. 
-                        I do talk to others outside of this circle, but mainly just chatting about random stuff. 
+                        Though I am fine with small talk, especially if its something I can relate to.
                     </p>
                 </div>
             </article>
@@ -66,21 +58,19 @@ export default {
                 <img class="img-left" src="/src/assets/images/pixelquestionmark_icon.png">
                 <h2 class="container-description-header">Next steps for me</h2>
                 <div class="text-wrapper">
-                    <p class="container-description-text"> 
-                        Well, what I want is a break, I know I probably had that many times already during my stay in college. 
-                        But man all of this has been quite the ride that I want to lie down for a moment, gather my thoughts and reflect on the many achiements I've attained and how far I've gone.
-                    </p>
                     <br>
                     <p class="container-description-text"> 
-                        Afterwhich I'll look for a job as a Programmer, maybe even a Web developer to be more specific considering 
-                        I've experienced that already ever since thesis and even now with the creation of this website, 
-                        as much as I've learned a lot in college, this is only the beginning.
+                        I'll look for a job as a Programmer, maybe even a Web developer to be more specific considering 
+                        I've had experience with it in thesis and even now with the creation of this website.
                     </p>
                     <br>
                     <p class="container-description-text"> 
                         I plan on also going back to the game I've made in 1st Year College, Generic Spaceshooter. 
-                        Though sadly this name for a game has obviously already been taken.
-                         I'll likely need to create a much more original name but originality is hard to have these days with many games likely having a similar name, but I won't know until I try.
+                        Definitely need to think of a different name for it though.
+                    </p>
+                    <br>
+                    <p class="container-description-text">
+                        P.S. I've made progress on said game, but there's lots more to do.
                     </p>
                     <br>
                 </div>
@@ -112,6 +102,13 @@ export default {
                     <br>
                 </div>
             </article>
+        </div>
+        <div class="back-button-container">
+            <button @click="gotoHome" style="all: unset;">
+                <article class="home-text" style="width: 350px;">
+                    <p class="extra-text" style="text-align: center;"> << Back to the homepage</p>
+                </article>
+            </button>
         </div>
     </main>
 </template>

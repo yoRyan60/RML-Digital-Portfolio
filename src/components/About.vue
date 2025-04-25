@@ -31,14 +31,11 @@ export default {
                     <br>
                     <p class="container-description-text"> 
                         This website contains information about my school life, work experiences like OJT, and achievements that I'd like to show you.
+                        I'll even add more as I go on in my eventual career.
                     </p>
                     <br>
                     <p class="container-description-text"> 
-                        Icons by Freepik, Flaticons & Google Images. Website made with basic HTML and CSS. As well as Vue.js.
-                    </p>
-                    <br>
-                    <p class="container-description-text"> 
-                        Almost all images, and graphics used in this website belong to their respective owners and I do not claim any right over them.
+                        Icons by Freepik, Flaticons & Google Images. Website made with basic HTML and CSS. As well as Vue.js. All credit goes to them.
                     </p>
                     <br>
                     <p class="container-description-text" style="font-style: italic;"> 

@@ -22,21 +22,12 @@ export default {
         </div>
         <div class="container-description-left">
             <article> 
-                <img class="img-left" src="/src/assets/images/InternshipLearning_images/dona_alejandra_inc_logo.jpg" style="width: 380px">
+                <img class="img-center" src="/src/assets/images/InternshipLearning_images/dona_alejandra_inc_logo.jpg" style="width: 350px;">
                 <h2 class="container-description-header">OJT - On the Job Traning</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
-                        So at this time I have applied for internship (OJT) for a company called Doña Alejandra Incorporated (also known as DAI). 
-                        And the position I'm in was Quality Assurance Intern (QA), whose job is in short, to perform tests on a system via the use of a test plan.
-                    </p>
-                    <br>
-                    <p class="container-description-text"> 
-                        A bit of background on the company; 
-                        In the rapidly changing field of document management, 
-                        DAI has established the gold standard by providing the most dependable, 
-                        feature-rich, affordable, and user-friendly solutions. 
-                        Above all, it possesses the easy-to-use and efficient functionalities of the five main document management components: capture, storage, manage, collaborate, and accessibility. 
-                        Additionally, it is capable of being integrated to increase efficacy with external business applications.
+                        So at this time I have applied for internship (OJT) for a company called Doña Alejandra Incorporated. 
+                        The position I'm in was Quality Assurance Intern (QA), and my job was to perform tests on a system via the use of a test plan.
                     </p>
                     <br>
                     <p class="container-description-text"> 
@@ -65,6 +56,13 @@ export default {
                     <img class="img-center" style="width: 70%;" src="/src/assets/images/InternshipLearning_images/OJT_certificate.jpg">
                 </div>
             </article>
+        </div>
+        <div class="back-button-container">
+            <button @click="gotoHome" style="all: unset;">
+                <article class="home-text" style="width: 350px;">
+                    <p class="extra-text" style="text-align: center;"> << Back to the homepage</p>
+                </article>
+            </button>
         </div>
     </main>
 </template>

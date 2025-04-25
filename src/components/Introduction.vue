@@ -26,7 +26,7 @@ export default {
                 <h2 class="container-description-header">About Me</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
-                        Hello, my name is <span style="color:greenyellow">Ryan Lim</span>. 
+                        Hi, name's <span style="color:greenyellow">Ryan Lim</span>. 
                         A graduate from the course of BS-IS also known as Bachelor of Science Major in Information Systems in De La Salle College of St. Benilde. 
                     </p>
                     <br>
@@ -36,7 +36,8 @@ export default {
                     </p>
                     <br>
                     <p class="container-description-text"> 
-                        I try to balance both productivity and gaming, well, I try anyway since sometimes one goes over the other.
+                        I try to balance both productivity and gaming. 
+                        As it helps me not only be productive but also have fun from time to time.
                     </p>
                 </div>
             </article>
@@ -47,19 +48,13 @@ export default {
                 <h2 class="container-description-header">Interests</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
-                        Ever since I was young, I had an interest in technology, most especially computers. 
-                        How they are used for everyday activities and how they're capable of providing you both productivity and entertainment at the same time. 
-                    </p>
-                    <br>
-                    <p class="container-description-text"> 
-                        Though I never really gotten hooked up with one until much later in my life, 
-                        I got to experience old phones, the old school ones, 
-                        then eventually having my own modern devices like a smartphone and laptop as of today. 
+                        I've had an interest in technology, most especially computers when I was younger. 
+                        How they are used for everyday activities and how they're capable of providing you both productivity and entertainment. 
                     </p>
                     <br>
                     <p class="container-description-text"> 
                         This is why my course was Information Systems. 
-                        With a lot of coding being done as well, it shows me what intricacies are hidden from the user that allow the system to work in such ways fascinates me, like how a website can make unique transitions, redirect you to other pages, or even simple hyperlinks. 
+                        With coding being done as well, it shows me what intricacies are hidden from the user that allow the system to work in such ways fascinates me. 
                     </p>
                 </div>
             </article>
@@ -70,18 +65,9 @@ export default {
                 <h2 class="container-description-header">Hobbies</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
-                        Same with my interest in technology is how much I also liked gaming a lot. Back then it's games on a Gameboy, Nintendo DS, then nowadays on a PC. 
-                        This is what I usually do a lot on a daily basis.
-                    </p>
-                    <br>
-                    <p class="container-description-text"> 
-                        However it became a bit less often ever since my journey in college due to many requirements and big projects. 
-                        Especially thesis where weekends were my only time to play, worse case I had to work on weekends as well due to the many things needed for academic and stuff. 
-                    </p>
-                    <br>
-                    <p class="container-description-text"> 
-                        But apart from that once everything subsides, I get to open a few games I usually play a lot. 
-                        Games like Minecraft, Terraria, GTAV, and more recently I've came back to, Warframe.  
+                        Apart from making games myself, I also like gaming quite a bit.
+                        Some notable mentions are games like Minecraft, Terraria, GTAV, 
+                        and more recently I've came back to, Warframe.  
                     </p>
                     <br>
                     <p class="container-description-text"> 
@@ -99,6 +85,13 @@ export default {
                     </p>
                 </div>
             </article>
+        </div>
+        <div class="back-button-container">
+            <button @click="gotoHome" style="all: unset;">
+                <article class="home-text" style="width: 350px;">
+                    <p class="extra-text" style="text-align: center;"> << Back to the homepage</p>
+                </article>
+            </button>
         </div>
     </main>
 </template>
