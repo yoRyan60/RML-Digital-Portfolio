@@ -38,24 +38,28 @@ a{
   background-color: greenyellow;
   color: black;
   padding: 10px;
+  cursor: pointer;
 }
 
 .terraria:hover{
   background-color: orange;
   color: black;
   padding: 10px;
+  cursor: pointer;
 }
 
 .gtav:hover{
   background-color: cyan;
   color: black;
   padding: 10px;
+  cursor: pointer;
 }
 
 .warframe:hover{
   background-color: magenta;
   color: black;
   padding: 10px;
+  cursor: pointer;
 }
 
 .img-logo{
@@ -151,6 +155,7 @@ li:hover{
   padding: 5px;
   background-color: black;
   color: greenyellow;
+  cursor: pointer;
 }
 
 .logo{
@@ -174,6 +179,7 @@ li:hover{
   color: greenyellow;
   background-color: rgba(0, 0, 0, 0.65);
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .selector{
@@ -182,6 +188,7 @@ li:hover{
 
 article:hover .selector{
   display: inline;
+  cursor: pointer;
 }
 
 .grid-container{
