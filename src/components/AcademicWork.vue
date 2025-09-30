@@ -72,33 +72,18 @@ export default {
                 </div>
             </article>
         </div>
-        <div class="container-description-center">
-            <section class="slider-container">
-                <div class="slider-wrapper">
-                    <div class="slider">
-                        <img id="slide-1" src="/src/assets/images/AcademicWork_images/statistics1.jpg" alt="statistic image 1">
-                        <img id="slide-2" src="/src/assets/images/AcademicWork_images/statistics2.jpg" alt="statistic image 2">
-                        <img id="slide-3" src="/src/assets/images/AcademicWork_images/statistics3.jpg" alt="statistic image 3">
-                        <img id="slide-4" src="/src/assets/images/AcademicWork_images/statistics4.jpg" alt="statistic image 4">
-                        <img id="slide-5" src="/src/assets/images/AcademicWork_images/statistics5.jpg" alt="statistic image 5">
-                        <img id="slide-6" src="/src/assets/images/AcademicWork_images/statistics6.jpg" style="scale:24.5%" alt="statistic image 6">
-                        <img id="slide-7" src="/src/assets/images/AcademicWork_images/statistics7.jpg" alt="statistic image 7">
-                        <img id="slide-8" src="/src/assets/images/AcademicWork_images/statistics8.jpg" alt="statistic image 8">
-                        <img id="slide-9" src="/src/assets/images/AcademicWork_images/statistics9.jpg" alt="statistic image 9">
-                    </div>
-                    <div class="slider-nav">
-                        <a href="#slide-1"></a>
-                        <a href="#slide-2"></a>
-                        <a href="#slide-3"></a>
-                        <a href="#slide-4"></a>
-                        <a href="#slide-5"></a>
-                        <a href="#slide-6"></a>
-                        <a href="#slide-7"></a>
-                        <a href="#slide-8"></a>
-                        <a href="#slide-9"></a>
-                    </div>
-                 </div>
-            </section>
+        <div>
+            <article class="imagecontainer">
+                <img src="/src/assets/images/AcademicWork_images/statistics1.jpg" alt="statistic image 1">
+                <img src="/src/assets/images/AcademicWork_images/statistics2.jpg" alt="statistic image 2">
+                <img src="/src/assets/images/AcademicWork_images/statistics3.jpg" alt="statistic image 3">
+                <img src="/src/assets/images/AcademicWork_images/statistics4.jpg" alt="statistic image 4">
+                <img src="/src/assets/images/AcademicWork_images/statistics5.jpg" alt="statistic image 5">
+                <img src="/src/assets/images/AcademicWork_images/statistics9.jpg" alt="statistic image 9">
+                <img src="/src/assets/images/AcademicWork_images/statistics7.jpg" alt="statistic image 7">
+                <img src="/src/assets/images/AcademicWork_images/statistics8.jpg" alt="statistic image 8">
+                <img src="/src/assets/images/AcademicWork_images/statistics6.jpg" alt="statistic image 6">
+            </article>
         </div>
         <div class="container-description-left">
             <article> 

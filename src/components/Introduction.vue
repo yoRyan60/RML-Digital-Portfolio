@@ -26,13 +26,18 @@ export default {
                 <h2 class="container-description-header">About Me</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
-                        Hi, name's <span style="color:greenyellow">Ryan Lim</span>. 
+                        Hi, my name is <span style="color:greenyellow">Ryan Lim</span>. 
                         A graduate from the course of BS-IS also known as Bachelor of Science Major in Information Systems in De La Salle College of St. Benilde. 
                     </p>
                     <br>
                     <p class="container-description-text"> 
-                        I've had experience in coding in the following programming languages such as C<span style="font-family: Smallest Pixel-7; font-size: 20px;">#</span>, JavaScript, 
-                        and more recent ones like TypeScript, and NextJS ever since my group's thesis. 
+                        I've had experience in coding in the following programming languages such as C<span style="font-family: Smallest Pixel-7; font-size: 20px;">#</span>, Java, JavaScript, 
+                        and more recent ones like NextJS ever since my group's thesis. 
+                    </p>
+                    <br>
+                    <p class="container-description-text"> 
+                        Along with my basic understanding of HTML and CSS, I've also just recently learned how to make use of Vue.js, the framework used to make this website. Though I'm not sure
+                        if it even makes a differences but at least I know that it's present somewhere here. Probably when it comes to the routing of the different pages.
                     </p>
                     <br>
                     <p class="container-description-text"> 
