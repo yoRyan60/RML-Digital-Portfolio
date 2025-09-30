@@ -65,10 +65,6 @@ export default {
                     <p class="container-description-text"> 
                         Here's some screenshots of said statistics displaying their respective data:
                     </p>
-                    <br>
-                    <p style="font-family: DePixelHalbfett; color: greenyellow; font-size: 12px; font-style: italic;"> 
-                        Click the dots on the slider to view the images.
-                    </p>
                 </div>
             </article>
         </div>

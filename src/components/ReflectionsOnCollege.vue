@@ -95,8 +95,8 @@ export default {
                     </p>
                     <br>
                     <p class="container-description-text"> 
-                        Take chances or opportunities in life when they appear as they are limited and never show up even again. 
-                        And finally, live life to the fullest, do the things I need to do and also do the things I want, which is gaming.
+                        Take chances or opportunities in life when they appear as they are limited and likely will never show up ever again. 
+                        And finally, live life to the fullest, do the things I need to do and also do the things I want, like coding and gaming.
                         One day I will be online in-game for the very last time, but that time is not now, not yet.
                     </p>
                     <br>

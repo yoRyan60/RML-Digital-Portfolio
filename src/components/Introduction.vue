@@ -36,7 +36,7 @@ export default {
                     </p>
                     <br>
                     <p class="container-description-text"> 
-                        Along with my basic understanding of HTML and CSS, I've also just recently learned how to make use of Vue.js, the framework used to make this website. Though I'm not sure
+                        Along with my basic understanding of HTML and CSS, I've also just recently learned how to make use of Vue.js, a progressive JavaScript framework used to make this website. Though I'm not sure
                         if it even makes a difference but at least I know that it's present somewhere here. Probably when it comes to the routing of the different pages.
                     </p>
                     <br>
