@@ -1,0 +1,362 @@
+/* For mobile responsiveness */
+
+@media (width <= 1000px) {
+  .typewritter-effect{
+    font-size: 16px;
+    letter-spacing: 5px;
+    border-right: 10px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+      typing 1.5s steps(27),
+      cursor .4s step-end infinite alternate;
+  }
+  .grid-container{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    padding: 10px;
+    max-width: 700px;
+    width: 100%;
+    justify-self: center;
+  }
+  .home-text{
+    opacity: 0;
+    font-size: 12px;
+    padding: 10px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    transition: background-color 0.5s, color 0.5s;
+    animation:
+      fade-in 1s, step-end infinite;
+    animation-delay: 1.1s;
+    animation-fill-mode: forwards;
+  }
+  .extra-text{
+    font-size: 16px;
+    font-family: Smallest Pixel-7;
+  }
+  .home-container-description{
+    opacity: 0;
+    font-size: 16px; 
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.50);
+    justify-self: center;
+    justify-content: center;
+    font-style: italic;
+    animation:
+      fade-in 1s, step-end infinite;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+  }
+  .nav-title{
+    color: black;
+    list-style-type: none;
+    display: inline;
+    margin: -0.5px;
+    padding: 5px;
+    font-size: 12px;
+  }
+  li{
+    color: black;
+    list-style-type: none;
+    display: inline;
+    margin: -0.5px;
+    padding: 5px;
+    font-size: 12px;
+  }
+  .nav-divider{
+    font-size: 10px;
+  }
+  body{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(174, 174, 174, 0.1), rgba(174, 174, 174, 0.1),
+     rgb(124, 193, 101)), url("./images/KeyboardBackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+  }
+  body::before{
+    padding-bottom: 100%;
+  }
+  .container-description-header{
+    font-family: Smallest Pixel-7;
+    font-size: 22px;
+    color: greenyellow;
+  }
+  .container-description-text{
+    font-size: 9.5px;
+    font-family: DePixelHalbfett;
+    color: white
+  }
+  .img-right{
+    float: right;
+    margin-left: 0;
+    padding: 10px;
+    width: 30%;
+    height: auto;
+  }
+
+/*For grouped images inside of a container displayed as a grid*/
+.imagecontainer{
+  opacity: 0;
+  max-width: 100%;
+  height: auto;
+  gap: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 3rem;
+  background-color: rgba(0, 0, 0, 0.50);
+  justify-self: center;
+  text-align: center;
+  animation:
+  fade-in 1s,
+  move-up 1s ease-in;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.imagecontainer > img{
+  width: 100%;
+  height: auto;
+}
+.genericspaceshooterimages{
+  display: grid;
+  grid-template-rows: auto auto;  
+  gap: 2em;
+  justify-self: center;
+}
+}
+
+@media (width <= 600px) {
+  nav{
+    background-color: rgb(124, 193, 101);
+    width: 100%;
+    display: inline-block;
+  }
+
+  .typewritter-effect{
+    font-size: 12.5px;
+    letter-spacing: 3px;
+    border-right: 10px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+      typing 1.5s steps(27),
+      cursor .4s step-end infinite alternate;
+  }
+  .grid-container{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    padding: 10px;
+    max-width: 500px;
+    width: 100%;
+    justify-self: center;
+  }
+  .home-text{
+    opacity: 0;
+    font-size: 10px;
+    padding: 10px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
+    transition: background-color 0.5s, color 0.5s;
+    animation:
+      fade-in 1s, step-end infinite;
+    animation-delay: 1.1s;
+    animation-fill-mode: forwards;
+  }
+  .extra-text{
+    font-size: 16px;
+    font-family: Smallest Pixel-7;
+  }
+  .home-container-description{
+    opacity: 0;
+    font-size: 16px; 
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.50);
+    justify-self: center;
+    justify-content: center;
+    font-style: italic;
+    animation:
+      fade-in 1s, step-end infinite;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
+  }
+
+  /* Main body of text for each of the pages (Introduction, About, etc.) */
+.container-description-left{
+  opacity: 0;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  max-width: 1350px;
+  height: 100%;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.50);
+  justify-self: center;
+  text-align: left;
+  animation:
+  fade-in 1s,
+  move-up 1s ease-in;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.container-description-right{
+  opacity: 0;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  max-width: 1350px;
+  height: 100%;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.50);
+  justify-self: center;
+  text-align: right;
+  animation:
+  fade-in 1s,
+  move-up 1s ease-in;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.container-description-center{
+  opacity: 0;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+  max-width: 1350px;
+  height: 100%;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.50);
+  justify-self: center;
+  text-align: center;
+  animation:
+  fade-in 1s,
+  move-up 1s ease-in;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+  .nav-title{
+    color: black;
+    list-style-type: none;
+    display: inline;
+    margin: -0.5px;
+    padding: 5px;
+    font-size: 12px;
+  }
+  li{
+    color: black;
+    list-style-type: none;
+    display: inline;
+    margin: -0.5px;
+    padding: 5px;
+    font-size: 12px;
+  }
+  .text-wrapper{  
+    overflow: unset;
+  }
+
+  .img-left{
+    float: left;
+    padding: 10px;
+    margin-right: 0;
+    width: 30%;
+    height: auto;
+  }
+  
+  .img-right{
+    float: right;
+    margin-left: 0;
+    padding: 10px;
+    width: 30%;
+    height: auto;
+  }
+  
+  .img-center{
+    padding: 10px;
+    margin-left: 0;
+    width: 30%;
+    height: auto;
+    justify-self: center;
+  }
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-size: 10px;
+  }
+  .nav-divider{
+    font-size: 10px;
+  }
+
+  body{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(174, 174, 174, 0.1), rgba(174, 174, 174, 0.1),
+     rgb(124, 193, 101)), url("./images/KeyboardBackground.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+  }
+  body::before{
+    padding-bottom: 100%;
+  }
+
+  .container-description-text{
+    font-size: 9.5px;
+    font-family: DePixelHalbfett;
+    color: white
+  }
+
+  .container-description-header{
+    font-family: Smallest Pixel-7;
+    font-size: 22px;
+    color: greenyellow;
+  }
+  /*For grouped images inside of a container displayed as a grid*/
+
+.imagecontainer{
+  opacity: 0;
+  width: 100%;
+  height: auto;
+  gap: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto;
+  margin: 3rem;
+  background-color: rgba(0, 0, 0, 0.50);
+  justify-self: center;
+  text-align: center;
+  animation:
+  fade-in 1s,
+  move-up 1s ease-in;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.imagecontainer > img{
+  width: 100%;
+  height: auto;
+}
+
+.genericspaceshooterimages{
+  display: grid;
+  grid-template-rows: auto auto;  
+  gap: 2em;
+  justify-self: center;
+}
+}

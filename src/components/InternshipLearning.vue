@@ -1,10 +1,14 @@
 <script>
 export default {
-    methods: {
+    methods:{
+        scrollToTop(){
+            window.scrollTo(0,0);
+        },
         gotoHome(){
+            this.scrollToTop();
             this.$router.push('/')
         },
-    },  
+    }
 }
 </script>
 
@@ -21,8 +25,10 @@ export default {
             </button>
         </div>
         <div class="container-description-left">
-            <article> 
-                <img class="img-center" src="/src/assets/images/InternshipLearning_images/dona_alejandra_inc_logo.jpg" style="width: 350px;">
+            <article>
+                <div style="justify-self: center;">
+                    <img  style="width: 350px; justify-self: center;" src="/src/assets/images/InternshipLearning_images/dona_alejandra_inc_logo.jpg">
+                </div> 
                 <h2 class="container-description-header">OJT - On the Job Traning</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 

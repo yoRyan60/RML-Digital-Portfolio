@@ -1,0 +1,33 @@
+/* All the keyframes/animations for the website */
+
+/* Home text options fade in on load */
+@keyframes fade-in{
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+/* cursor blinking effect */
+@keyframes cursor{
+  50%{
+    border-color: transparent;
+  }
+}
+
+/* typing effect */
+@keyframes typing{
+  from {width: 0}
+}
+
+/* Content shift up to view effect */
+@keyframes move-up{
+  50%{
+    translate: 0 5%;
+  }
+  100%{
+    translate: 0 -1.5%;
+  }
+}
