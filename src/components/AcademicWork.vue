@@ -1,7 +1,11 @@
 <script>
 export default {
     methods: {
+        scrollToTop(){
+            window.scrollTo(0,0);
+        },
         gotoHome(){
+            this.scrollToTop();
             this.$router.push('/')
         },
     },
@@ -101,7 +105,7 @@ export default {
                     </p>
                     <br>
                 </div>
-                <div style="justify-self: center;">
+                <div class="genericspaceshooterimages" style="justify-self: center">
                     <img class="img-left" src="/src/assets/images/GenericSpaceShooter (GIF-1).gif" style="width: 350px;">
                     <img class="img-left" src="/src/assets/images/GenericSpaceShooter (GIF-2).gif" style="width: 350px;">
                 </div>

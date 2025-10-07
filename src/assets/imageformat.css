@@ -1,0 +1,61 @@
+/*For grouped images inside of a container displayed as a grid*/
+.imagecontainer{
+  opacity: 0;
+  width: 1350px;
+  height: auto;
+  gap: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 3rem;
+  background-color: rgba(0, 0, 0, 0.50);
+  justify-self: center;
+  text-align: center;
+  animation:
+  fade-in 1s,
+  move-up 1s ease-in;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.imagecontainer > img{
+  width: 100%;
+  height: auto;
+}
+
+/*Different alignments for images.*/
+.img-left{
+  float: left;
+  padding: 20px;
+  margin-right: 0;
+  width: 220px;
+  height: auto;
+}
+
+.img-right{
+  float: right;
+  padding: 20px;
+  margin-left: 0;
+  width: 220px;
+  height: auto;
+}
+
+.img-center{
+  padding: 20px;
+  margin-left: 0;
+  width: 220px;
+  height: auto;
+  justify-self: center;
+}
+
+.img-grid{
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+/* Prevents text from wrapping around image. 
+Make sure to put it in a div that acts as the parent for the text you want to prevent wrapping around an image for. */
+.text-wrapper{  
+  overflow: hidden;
+}
