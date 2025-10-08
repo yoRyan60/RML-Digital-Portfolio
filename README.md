@@ -1,10 +1,11 @@
-<<<<<<< HEAD
 # RML-Digital-Portfolio
-A remake of my original digital portfolio made previously in Google Sites, a bit rough when it comes to dynamic resolutions, but looks decent at the very least.
-=======
-# LimRyan_DigitalPortfolio_NEW
 
-This template should help get you started developing with Vue 3 in Vite.
+A remake of my original digital portfolio made previously for college in Google Sites. This time with the help of Vue.js as well as HTML, CSS, and also JavaScript.
+The design was technically made from scratch, hence you may notice some unpolished areas.
+A bit rough when it comes to dynamic resolutions, but looks decent at the very least.
+
+This will be updated from time to time, whether it be miscellaneous changes or actually adding more content whenever I get newfound experience.
+
 
 ## Recommended IDE Setup
 
