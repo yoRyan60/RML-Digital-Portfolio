@@ -7,7 +7,7 @@
   padding: 20px;
   display: grid;
   grid-template-columns: auto auto auto;
-  margin: 3rem;
+  margin: 20px;
   background-color: rgba(0, 0, 0, 0.50);
   justify-self: center;
   text-align: center;

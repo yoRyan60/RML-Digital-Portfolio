@@ -35,18 +35,24 @@ export default {
                     </p>
                     <br>
                     <p class="container-description-text"> 
-                        I've had experience in coding in the following programming languages such as C<span style="font-family: Smallest Pixel-7; font-size: 20px;">#</span>, Java, JavaScript, 
-                        and more recent ones like NextJS ever since my group's thesis. 
+                        I've had experience in coding in the following programming languages such as <span style="color: greenyellow;">C<span style="font-family: Smallest Pixel-7; font-size: 20px;">#</span>, Java, JavaScript</span>, 
+                        and more recent ones like <span style="color: greenyellow;">NextJS</span> ever since my group's thesis. 
                     </p>
                     <br>
                     <p class="container-description-text"> 
-                        Along with my basic understanding of HTML and CSS, I've also just recently learned how to make use of Vue.js, a progressive JavaScript framework used to make this website. Though I'm not sure
+                        Along with my basic understanding of <span style="color: greenyellow;">HTML</span> and <span style="color: greenyellow;">CSS</span>, I've also just recently learned how to make use of <span style="color: greenyellow;">Vue.js</span>, a progressive JavaScript framework used to make this website. Though I'm not sure
                         if it even makes a difference but at least I know that it's present somewhere here. Probably when it comes to the routing of the different pages.
                     </p>
                     <br>
                     <p class="container-description-text"> 
                         I try to balance both productivity and gaming. 
                         As it helps me not only be productive but also have fun from time to time.
+                    </p>
+                    <br>
+                    <p class="container-description-text"> 
+                        There isn't much to see here yet since I've just graduated and have been looking for a place to start at.
+                        But I do hope that whenever that time comes I'll be able to gain more knowledge and technical experience
+                        that'll help me be more proficient at programming, coding, etc.
                     </p>
                 </div>
             </article>
@@ -73,6 +79,13 @@ export default {
                 <img class="img-left" src="/src/assets/images/game_controller_pixel_icon.png">
                 <h2 class="container-description-header">Hobbies</h2>
                 <div class="text-wrapper">
+                    <p class="container-description-text"> 
+                        Though recent, I've been able to make simple pixel art thanks to 
+                        <span style="color: greenyellow">Aesprite</span>. It allowed me to make 
+                        Simple but easy to use sprites for the game I've been working on which is basically just a recreation 
+                        of a game I've made for a college project, this time it'll be made in <span style="color: greenyellow">Unity</span>.
+                    </p>
+                    <br>
                     <p class="container-description-text"> 
                         Apart from making games myself, I also like gaming quite a bit.
                         Some notable mentions are games like Minecraft, Terraria, GTAV, 
