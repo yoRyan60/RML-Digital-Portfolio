@@ -51,8 +51,10 @@ export default {
                 <h2 class="container-description-header">Tasks Done during OJT</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
-                        I mainly did things like regression tests plans where you'd simply test parts of the system and check if they doing what they're suppose to.
-                        Another regression test plan to list all the showstoppers, meaning if said function causes the system to view an error which disrupts user experience.
+                       I mainly did things that a QA would typically do, 
+                       like filling out test cases by following the steps provided and testing out 
+                       the software and see if things are working as they should and 
+                       performing things like regression testing as well. 
                     </p>
                     <br>
                     <p class="container-description-text"> 

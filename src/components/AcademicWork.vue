@@ -50,8 +50,8 @@ export default {
                 <h2 class="container-description-header">What I've done in my group's Capstone</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
-                        What I mainly did in out website was the Statistics part, where it shows things like, total cash donations, in-kind donations, etc. 
-                        There's things like Yearly, Monthly, Daily, and Custom filters allowing the user to display data based on the given parameters. 
+                        What I mainly did on the website was the Statistics part, 
+                        where I’d translate the data on our database to a visually appealing graph to make it easier for the user to interpret.
                     </p>
                     <br>
                     <p class="container-description-text"> 
