@@ -69,11 +69,12 @@ export default {
                     <p class="container-description-text"> 
                         Here's some screenshots of said statistics displaying their respective data:
                     </p>
+                    <br>
                 </div>
             </article>
         </div>
         <div class="container-description">
-            <article class="imagecontainer">
+            <div class="imagecontainer">
                 <img src="/src/assets/images/AcademicWork_images/statistics1.jpg" alt="statistic image 1">
                 <img src="/src/assets/images/AcademicWork_images/statistics2.jpg" alt="statistic image 2">
                 <img src="/src/assets/images/AcademicWork_images/statistics3.jpg" alt="statistic image 3">
@@ -83,7 +84,7 @@ export default {
                 <img src="/src/assets/images/AcademicWork_images/statistics7.jpg" alt="statistic image 7">
                 <img src="/src/assets/images/AcademicWork_images/statistics8.jpg" alt="statistic image 8">
                 <img src="/src/assets/images/AcademicWork_images/statistics6.jpg" alt="statistic image 6">
-            </article>
+            </div>
         </div>
         <div class="container-description" style="text-align: left;">
             <article> 

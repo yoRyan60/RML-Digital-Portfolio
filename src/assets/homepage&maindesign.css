@@ -161,6 +161,10 @@ article:hover .selector{
   display: inline-block;
 }
 
+.text-wrapper{
+  word-wrap: normal;
+}
+
 /* Typing effect for the greeting title on the homepage. */
 .typewritter-effect{
   font-size: 24px;

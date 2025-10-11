@@ -89,9 +89,9 @@
     gap: 20px;
     padding: 20px;
     display: flex;
-    max-width: 450px;
+    max-width: 95%;
     height: 100%;
-    margin: 20px;
+    margin: 30px;
     background-color: rgba(0, 0, 0, 0.50);
     justify-self: center;
     animation:
@@ -217,9 +217,9 @@
   gap: 20px;
   padding: 20px;
   display: flex;
-  width: 800px;
+  width: 95%;
   height: 100%;
-  margin: 50px;
+  margin: 30px;
   background-color: rgba(0, 0, 0, 0.50);
   justify-self: center;
   text-align: left;
