@@ -313,7 +313,7 @@ body::before{
   padding: 10px;
   display: grid;
   grid-template-columns: auto;
-  margin: 20px;
+  margin: 5x;
   justify-self: center;
   text-align: center;
   animation:
