@@ -69,7 +69,7 @@ export default {
                 </div>
             </article>
         </div>
-        <div class="container-description">
+        <div class="container-description" style="text-align: left;">
             <article> 
                 <img class="img-left" src="/src/assets/images/game_controller_pixel_icon.png">
                 <h2 class="container-description-header">Hobbies</h2>

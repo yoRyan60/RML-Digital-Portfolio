@@ -123,6 +123,7 @@
 .imagecontainer{
   opacity: 0;
   width: 100%;
+  height: auto;
   gap: 20px;
   padding: 5px;
   margin: 10px;
