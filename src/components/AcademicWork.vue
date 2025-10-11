@@ -24,7 +24,7 @@ export default {
                 </article>
             </button>
         </div>
-        <div class="container-description-left">
+        <div class="container-description" style="text-align: left;">
             <article> 
                 <img class="img-left" src="/src/assets/images/GiveMore_Logo.png" style="width: 350px">
                 <h2 class="container-description-header">Capstone - GiveMore</h2>
@@ -45,7 +45,7 @@ export default {
                 </div>
             </article>
         </div>
-        <div class="container-description-center">
+        <div class="container-description" style="text-align: center;">
             <article> 
                 <h2 class="container-description-header">What I've done in my group's Capstone</h2>
                 <div class="text-wrapper">
@@ -72,7 +72,7 @@ export default {
                 </div>
             </article>
         </div>
-        <div>
+        <div class="container-description">
             <article class="imagecontainer">
                 <img src="/src/assets/images/AcademicWork_images/statistics1.jpg" alt="statistic image 1">
                 <img src="/src/assets/images/AcademicWork_images/statistics2.jpg" alt="statistic image 2">
@@ -85,7 +85,7 @@ export default {
                 <img src="/src/assets/images/AcademicWork_images/statistics6.jpg" alt="statistic image 6">
             </article>
         </div>
-        <div class="container-description-left">
+        <div class="container-description" style="text-align: left;">
             <article> 
                 <img class="img-right" src="/src/assets/images/GenericSpaceShooter_Title.png">
                 <h2 class="container-description-header">Previous Final Project - Making a Game</h2>

@@ -24,7 +24,7 @@ export default {
                 </article>
             </button>
         </div>
-        <div class="container-description-left">
+        <div class="container-description" style="text-align: left">
             <article> 
                 <img class="img-left" src="/src/assets/images/pixelbook_icon.png">
                 <h2 class="container-description-header">What I've learned</h2>
@@ -41,7 +41,7 @@ export default {
                 </div>
             </article>
         </div>
-        <div class="container-description-right">
+        <div class="container-description" style="text-align: right">
             <article> 
                 <img class="img-right" src="/src/assets/images/pixelgroup_icon.png">
                 <h2 class="container-description-header">College Life</h2>
@@ -57,7 +57,7 @@ export default {
                 </div>
             </article>
         </div>
-        <div class="container-description-left">
+        <div class="container-description" style="text-align: left">
             <article> 
                 <img class="img-left" src="/src/assets/images/pixelquestionmark_icon.png">
                 <h2 class="container-description-header">Next steps for me</h2>
@@ -81,7 +81,7 @@ export default {
             </article>
         </div>
         
-        <div class="container-description-center">
+        <div class="container-description" style="text-align: center">
             <article> 
                 <img class="img-center" src="/src/assets/images/lightbulbpixel_icon.jpg">
                 <h2 class="container-description-header">Commitment Statement</h2>

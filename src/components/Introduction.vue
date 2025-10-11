@@ -24,7 +24,7 @@ export default {
                 </article>
             </button>
         </div>
-        <div class="container-description-left">
+        <div class="container-description" style="text-align: left;">
             <article> 
                 <img class="img-left" src="/src/assets/images/RayanLem.png">
                 <h2 class="container-description-header">About Me</h2>
@@ -52,7 +52,7 @@ export default {
                 </div>
             </article>
         </div>
-        <div class="container-description-right">
+        <div class="container-description" style="text-align: right;">
             <article> 
                 <img class="img-right" src="/src/assets/images/computer_icon.png">
                 <h2 class="container-description-header">Interests</h2>
@@ -69,7 +69,7 @@ export default {
                 </div>
             </article>
         </div>
-        <div class="container-description-left">
+        <div class="container-description">
             <article> 
                 <img class="img-left" src="/src/assets/images/game_controller_pixel_icon.png">
                 <h2 class="container-description-header">Hobbies</h2>

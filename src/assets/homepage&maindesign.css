@@ -114,53 +114,17 @@ article:hover .selector{
 }
 
 /* Main body of text for each of the pages (Introduction, About, etc.) */
-.container-description-left{
+.container-description{
   opacity: 0;
   gap: 20px;
   padding: 20px;
   display: flex;
   width: 1350px;
   height: 100%;
-  margin: 20px;
+  margin: 40px;
   background-color: rgba(0, 0, 0, 0.50);
   justify-self: center;
   text-align: left;
-  animation:
-  fade-in 1s,
-  move-up 1s ease-in;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-}
-
-.container-description-right{
-  opacity: 0;
-  gap: 20px;
-  padding: 20px;
-  display: flex;
-  max-width: 1350px;
-  height: 100%;
-  margin: 20px;
-  background-color: rgba(0, 0, 0, 0.50);
-  justify-self: center;
-  text-align: right;
-  animation:
-  fade-in 1s,
-  move-up 1s ease-in;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
-}
-
-.container-description-center{
-  opacity: 0;
-  gap: 20px;
-  padding: 20px;
-  display: flex;
-  max-width: 1350px;
-  height: 100%;
-  margin: 20px;
-  background-color: rgba(0, 0, 0, 0.50);
-  justify-self: center;
-  text-align: center;
   animation:
   fade-in 1s,
   move-up 1s ease-in;

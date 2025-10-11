@@ -24,7 +24,7 @@ export default {
                 </article>
             </button>
         </div>
-        <div class="container-description-center">
+        <div class="container-description" style="text-align: center">
             <article> 
                 <h2 class="container-description-header">Regarding this website</h2>
                 <div class="text-wrapper">

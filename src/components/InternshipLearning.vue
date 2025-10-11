@@ -24,7 +24,7 @@ export default {
                 </article>
             </button>
         </div>
-        <div class="container-description-left">
+        <div class="container-description" style="text-align: left;">
             <article>
                 <div style="justify-self: center;">
                     <img  style="width: 350px; justify-self: center;" src="/src/assets/images/InternshipLearning_images/dona_alejandra_inc_logo.jpg">
@@ -46,7 +46,7 @@ export default {
                 </div>
             </article>
         </div>
-        <div class="container-description-center">
+        <div class="container-description" style="text-align: center;">
             <article> 
                 <h2 class="container-description-header">Tasks Done during OJT</h2>
                 <div class="text-wrapper">

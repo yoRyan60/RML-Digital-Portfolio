@@ -1,21 +1,13 @@
 /*For grouped images inside of a container displayed as a grid*/
 .imagecontainer{
-  opacity: 0;
   width: 1350px;
   height: auto;
   gap: 20px;
-  padding: 20px;
+  padding: 10px;
   display: grid;
   grid-template-columns: auto auto auto;
-  margin: 20px;
-  background-color: rgba(0, 0, 0, 0.50);
   justify-self: center;
   text-align: center;
-  animation:
-  fade-in 1s,
-  move-up 1s ease-in;
-  animation-delay: 0.5s;
-  animation-fill-mode: forwards;
 }
 
 .imagecontainer > img{

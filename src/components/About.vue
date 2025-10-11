@@ -24,7 +24,7 @@ export default {
                 </article>
             </button>
         </div>
-        <div class="container-description-left">
+        <div class="container-description" style="text-align: left;">
             <article> 
                 <img class="img-left" src="/src/assets/images/info_pixel_icon.png">
                 <h2 class="container-description-header">Regarding this website</h2>
