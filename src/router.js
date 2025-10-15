@@ -8,6 +8,7 @@ import AcademicWork from "./components/AcademicWork.vue";
 import InternshipLearning from "./components/InternshipLearning.vue";
 import ReflectionsOnCollege from "./components/ReflectionsOnCollege.vue";
 import Feedback from "./components/Feedback.vue";
+import NotFound from "./components/NotFound.vue";
 
 const routes = [
     { path: '/', component: Home},
@@ -16,7 +17,8 @@ const routes = [
     { path: '/AcademicWork', component: AcademicWork},
     { path: '/InternshipLearning', component: InternshipLearning},
     { path: '/ReflectionsOnCollege', component: ReflectionsOnCollege},
-    { path: '/Feedback', component: Feedback}
+    { path: '/Feedback', component: Feedback},
+    { path: '/:pathMatch(.*)*', component: NotFound}
 ]
 
 const router = createRouter({
