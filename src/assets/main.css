@@ -51,7 +51,35 @@ footer{
   padding: 20px;
   width: 100%;
   content: "Hello";
+  display: inline-block;
 }
+
+.footer-link-GitHub{
+  float: right;
+  background-image: url(/src/assets/images/GitHub_logo.png);
+  transition: background-image 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.footer-link-GitHub:hover{
+  float: right;
+  background-image: url(/src/assets/images/GitHub_logo_hover.png);
+  cursor: pointer;
+}
+
+.footer-link-Discord{
+  float: right;
+  background-image: url(/src/assets/images/Discord_logo.png);
+  transition: background-image 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.footer-link-Discord:hover{
+  float: right;
+  background-image: url(/src/assets/images/Discord_logo_hover.png);
+  cursor: pointer;
+}
+
 
 #app {
   margin: 0;

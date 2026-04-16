@@ -16,8 +16,11 @@ import Navigation from './components/Navigation.vue';
     <main>
       <RouterView/>
     </main>
-    <footer style="font-family: Smallest Pixel-7;">
-          Copyright © {{ currentYear }} RML. All rights reserved. 
+    <footer class="footer" style="font-family: Smallest Pixel-7;">
+          Copyright © {{ currentYear }} RML. All rights reserved.
+          <a href="https://github.com/yoRyan60" target="_blank">
+            <img src="/src/assets/images/GitHub_logo.png" class="footer-link-GitHub"> 
+          </a>
     </footer>
   </div>
 </template>
