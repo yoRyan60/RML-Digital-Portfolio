@@ -337,4 +337,15 @@ body::before{
   gap: 2em;
   justify-self: center;
 }
+
+.footer-link-GitHub{
+  background-image: url(/src/assets/images/GitHub_logo.png);
+  transition: background-image 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.footer-link-GitHub:hover{
+  background-image: url(/src/assets/images/GitHub_logo_hover.png);
+  cursor: pointer;
+}
 }
