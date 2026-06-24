@@ -39,7 +39,7 @@ export default {
                     </p>
                     <br>
                     <p class="container-description-text"> 
-                        Icons by Freepik, Flaticons & Google Images. Website made with basic HTML and CSS. As well as Vue.js. All credit goes to them.
+                        Icons by Freepik, Flaticons & Google Images. Website made with basic HTML and CSS. As well as Vue.js and Splide. All credit goes to them.
                     </p>
                     <br>
                     <p class="container-description-text" style="font-style: italic;"> 

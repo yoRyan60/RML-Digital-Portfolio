@@ -1,4 +1,6 @@
 <script>
+//Styling for the image carousel
+import '@splidejs/vue-splide/css/sea-green';
 export default {
     methods: {
         scrollToTop(){
@@ -75,7 +77,36 @@ export default {
         </div>
         <div class="container-description">
             <div class="imagecontainer">
-                <img src="/src/assets/images/AcademicWork_images/statistics1.jpg" alt="statistic image 1">
+                <Splide :options="{ rewind: true }" aria-label="My Favorite Images">
+                    <SplideSlide>
+                        <img src="/src/assets/images/AcademicWork_images/statistics1.jpg" alt="statistics1">
+                    </SplideSlide>
+                    <SplideSlide>
+                        <img src="/src/assets/images/AcademicWork_images/statistics2.jpg" alt="statistics2">
+                    </SplideSlide>
+                    <SplideSlide>
+                        <img src="/src/assets/images/AcademicWork_images/statistics3.jpg" alt="statistics3">
+                    </SplideSlide>
+                    <SplideSlide>
+                        <img src="/src/assets/images/AcademicWork_images/statistics4.jpg" alt="statistics4">
+                    </SplideSlide>
+                    <SplideSlide>
+                        <img src="/src/assets/images/AcademicWork_images/statistics5.jpg" alt="statistics5">
+                    </SplideSlide>
+                    <SplideSlide>
+                        <img src="/src/assets/images/AcademicWork_images/statistics6.jpg" alt="statistics6">
+                    </SplideSlide>
+                    <SplideSlide>
+                        <img src="/src/assets/images/AcademicWork_images/statistics7.jpg" alt="statistics7">
+                    </SplideSlide>
+                    <SplideSlide>
+                        <img src="/src/assets/images/AcademicWork_images/statistics8.jpg" alt="statistics8">
+                    </SplideSlide>
+                    <SplideSlide>
+                        <img src="/src/assets/images/AcademicWork_images/statistics9.jpg" alt="statistics9">
+                    </SplideSlide>
+                </Splide>
+                <!--<img src="/src/assets/images/AcademicWork_images/statistics1.jpg" alt="statistic image 1">
                 <img src="/src/assets/images/AcademicWork_images/statistics2.jpg" alt="statistic image 2">
                 <img src="/src/assets/images/AcademicWork_images/statistics3.jpg" alt="statistic image 3">
                 <img src="/src/assets/images/AcademicWork_images/statistics4.jpg" alt="statistic image 4">
@@ -83,7 +114,7 @@ export default {
                 <img src="/src/assets/images/AcademicWork_images/statistics9.jpg" alt="statistic image 9">
                 <img src="/src/assets/images/AcademicWork_images/statistics7.jpg" alt="statistic image 7">
                 <img src="/src/assets/images/AcademicWork_images/statistics8.jpg" alt="statistic image 8">
-                <img src="/src/assets/images/AcademicWork_images/statistics6.jpg" alt="statistic image 6">
+                <img src="/src/assets/images/AcademicWork_images/statistics6.jpg" alt="statistic image 6">-->
             </div>
         </div>
         <div class="container-description" style="text-align: left;">

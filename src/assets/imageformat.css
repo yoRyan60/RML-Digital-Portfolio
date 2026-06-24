@@ -46,6 +46,11 @@
   margin: 0;
 }
 
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+
 /* Prevents text from wrapping around image. 
 Make sure to put it in a div that acts as the parent for the text you want to prevent wrapping around an image for. */
 .text-wrapper{  
