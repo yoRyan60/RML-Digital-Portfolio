@@ -77,7 +77,7 @@ export default {
         </div>
         <div class="container-description">
             <div class="imagecontainer">
-                <Splide :options="{ rewind: true }" aria-label="My Favorite Images">
+                <Splide :options="{ rewind: true }">
                     <SplideSlide>
                         <img src="/src/assets/images/AcademicWork_images/statistics1.jpg" alt="statistics1">
                     </SplideSlide>
