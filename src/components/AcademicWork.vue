@@ -28,7 +28,7 @@ export default {
         </div>
         <div class="container-description" style="text-align: left;">
             <article> 
-                <img class="img-left" src="/src/assets/images/GiveMore_Logo.png" style="width: 350px">
+                <img class="img-right" src="/src/assets/images/GiveMore_Logo.png" style="width: 350px">
                 <h2 class="container-description-header">Capstone - GiveMore</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
@@ -45,11 +45,8 @@ export default {
                         <a href="https://isproj2.vercel.app/" target="_blank">GiveMore - Give to each other to make the world better.</a>
                     </p>
                 </div>
-            </article>
-        </div>
-        <div class="container-description" style="text-align: center;">
-            <article> 
-                <h2 class="container-description-header">What I've done in my group's Capstone</h2>
+            <br>
+            <h2 class="container-description-header">What I've done in my group's Capstone</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
                         What I mainly did on the website was the Statistics part, 
@@ -73,10 +70,6 @@ export default {
                     </p>
                     <br>
                 </div>
-            </article>
-        </div>
-        <div class="container-description">
-            <div class="imagecontainer">
                 <Splide :options="{ rewind: true }">
                     <SplideSlide>
                         <img src="/src/assets/images/AcademicWork_images/statistics1.jpg" alt="statistics1">
@@ -106,16 +99,7 @@ export default {
                         <img src="/src/assets/images/AcademicWork_images/statistics9.jpg" alt="statistics9">
                     </SplideSlide>
                 </Splide>
-                <!--<img src="/src/assets/images/AcademicWork_images/statistics1.jpg" alt="statistic image 1">
-                <img src="/src/assets/images/AcademicWork_images/statistics2.jpg" alt="statistic image 2">
-                <img src="/src/assets/images/AcademicWork_images/statistics3.jpg" alt="statistic image 3">
-                <img src="/src/assets/images/AcademicWork_images/statistics4.jpg" alt="statistic image 4">
-                <img src="/src/assets/images/AcademicWork_images/statistics5.jpg" alt="statistic image 5">
-                <img src="/src/assets/images/AcademicWork_images/statistics9.jpg" alt="statistic image 9">
-                <img src="/src/assets/images/AcademicWork_images/statistics7.jpg" alt="statistic image 7">
-                <img src="/src/assets/images/AcademicWork_images/statistics8.jpg" alt="statistic image 8">
-                <img src="/src/assets/images/AcademicWork_images/statistics6.jpg" alt="statistic image 6">-->
-            </div>
+            </article>
         </div>
         <div class="container-description" style="text-align: left;">
             <article> 
