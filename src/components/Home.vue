@@ -49,34 +49,29 @@ export default {
             </article>
         </button>
         <button @click="gotoPortfolio" style="all: unset;">
-            <article class="home-text" style="background-image: url('/src/assets/images/portfolio_pixel_icon.png'); 
-            background-repeat:no-repeat; background-position: right; background-size: 12rem;">
+            <article class="home-text portfolio_pixel_icon">
                 <h1><span class="selector">>> </span> Portfolio</h1>
                     <p class="extra-text">Stuff I've made either on my own or with a group of people.</p>
             </article>
         </button>
         <button @click="gotoWorkExperience" style="all: unset;">
-            <article class="home-text" style="background-image: url('/src/assets/images/workexperience_pixel_icon.png'); 
-            background-repeat:no-repeat; background-position: right; background-size: 12rem;">
+            <article class="home-text workexperience_pixel_icon">
                 <h1><span class="selector">>> </span> Work Experience</h1>
                     <p class="extra-text">Recent work experiences like my OJT can be viewed here.</p>
             </article>
         </button>
-        <article @click="gotoAchievements" class="home-text" style="background-image: url('/src/assets/images/achievements_pixel_icon.png'); 
-            background-repeat:no-repeat; background-position: right; background-size: 12rem;">
+        <article @click="gotoAchievements" class="home-text achievements_pixel_icon">
             <h1><span class="selector">>> </span> Achievements</h1>
                 <p class="extra-text">Contains various recent awards/certificates I've received. Notably completion certificates, honors, etc.</p>
         </article>
         <button @click="gotoMiscellaneous" style="all: unset;">
-            <article class="home-text" style="background-image: url('/src/assets/images/miscellaneous_pixel_icon.png'); 
-            background-repeat:no-repeat; background-position: right; background-size: 12rem;">
+            <article class="home-text miscellaneous_pixel_icon">
                 <h1><span class="selector">>> </span> Miscellaneous</h1>
                     <p class="extra-text">Random stuff/Info dump where I either have some tips or advice on varous things or simply just things I want to mention here.</p>
             </article>
         </button>
         <button @click="gotoAbout" style="all: unset;">
-            <article class="home-text" style="background-image: url('/src/assets/images/about&updates_pixel_icon.png'); 
-            background-repeat:no-repeat; background-position: right; background-size: 12rem;">
+            <article class="home-text about-and-updates_pixel_icon">
                 <h1><span class="selector">>> </span> About/Updates</h1>
                     <p class="extra-text">Here you'll see general info and updates on this website.</p>
             </article>
