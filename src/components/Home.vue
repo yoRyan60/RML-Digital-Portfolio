@@ -43,8 +43,7 @@ export default {
     </header>
     <main class="grid-container" style="font-family: Retro Computer; color: white;">
         <button @click="gotoMyProfile" style="all: unset;">
-            <article class="home-text" style="background-image: url('/src/assets/images/myprofile_pixel_icon.png'); 
-            background-repeat:no-repeat; background-position: right; background-size: 12rem;">
+            <article class="home-text myprofile_pixel_icon">
                 <h1><span class="selector">>> </span> My Profile</h1>
                     <p class="extra-text">This is where I give a brief background of myself. Which also includes hobbies and interests.</p>
             </article>

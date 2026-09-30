@@ -165,6 +165,14 @@ article:hover .selector{
   word-wrap: normal;
 }
 
+.myprofile_pixel_icon{
+  background-image: url('src/assets/images/mainmenu_icons/myprofile_pixel_icon.png');
+  background-repeat: no-repeat; 
+  background-position: right; 
+  background-size: 12rem;
+}
+
+
 /* Typing effect for the greeting title on the homepage. */
 .typewritter-effect{
   font-size: 24px;
