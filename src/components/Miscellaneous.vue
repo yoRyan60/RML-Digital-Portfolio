@@ -15,7 +15,7 @@ export default {
 <template>
     <main>
         <div class="heading-container">
-            <h1 style="font-family: Retro Computer; color:greenyellow">Reflections on College</h1>
+            <h1 style="font-family: Retro Computer; color:greenyellow">Miscellaneous</h1>
         </div>
         <div class="back-button-container">
             <button @click="gotoHome" style="all: unset;">
@@ -26,7 +26,8 @@ export default {
         </div>
         <div class="container-description" style="text-align: left">
             <article> 
-                <img class="img-left" src="/src/assets/images/pixelbook_icon.png">
+                <h2 class="container-description-header" style="font-family: Retro Computer;">Reflections on College</h2>
+                <img class="img-right" src="/src/assets/images/pixelbook_icon.png">
                 <h2 class="container-description-header">What I've learned</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
@@ -39,11 +40,7 @@ export default {
                         And every now and then, it doesn't hurt to be creative. It's what makes my less monochrome and more vivid.
                     </p>
                 </div>
-            </article>
-        </div>
-        <div class="container-description" style="text-align: right">
-            <article> 
-                <img class="img-right" src="/src/assets/images/pixelgroup_icon.png">
+                <br>
                 <h2 class="container-description-header">College Life</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
@@ -55,11 +52,7 @@ export default {
                         Though I am fine with small talk, especially if its something I can relate to.
                     </p>
                 </div>
-            </article>
-        </div>
-        <div class="container-description" style="text-align: left">
-            <article> 
-                <img class="img-left" src="/src/assets/images/pixelquestionmark_icon.png">
+                <br>
                 <h2 class="container-description-header">Next steps for me</h2>
                 <div class="text-wrapper">
                     <br>
@@ -78,13 +71,11 @@ export default {
                     </p>
                     <br>
                 </div>
-            </article>
-        </div>
-        
-        <div class="container-description" style="text-align: center">
-            <article> 
-                <img class="img-center" src="/src/assets/images/lightbulbpixel_icon.jpg">
+                <br>
+                <div style="text-align: center;">
+                <img class="img-center" src="/src/assets/images/lightbulbpixel_icon.png">
                 <h2 class="container-description-header">Commitment Statement</h2>
+                <br>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
                         I commit to continue exploring technology as it advances, understanding it's complexity and find to use it in everyday life. 
@@ -104,6 +95,7 @@ export default {
                         One day I will be online in-game for the very last time, but that time is not now, not yet.
                     </p>
                     <br>
+                </div>
                 </div>
             </article>
         </div>

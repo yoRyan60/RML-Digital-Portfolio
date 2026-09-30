@@ -49,5 +49,30 @@ export default {
                 </div>
             </article>
         </div>
+        <div class="heading-container">
+            <h1 style="font-family: Retro Computer; color:greenyellow">Updates</h1>
+        </div>
+                <div class="container-description" style="text-align: left;">
+            <article> 
+                <img class="img-left" src="/src/assets/images/updates_pixel_icon.png">
+                <h2 class="container-description-header">10/1/2026</h2>
+                <div class="text-wrapper">
+                    <p class="container-description-text"> 
+                        Added this update log section, I may add new logs here if necessary. 
+                    </p>
+                    <br>
+                    <p class="container-description-text"> 
+                        Finished most of the major UI changes to the website. Will soon add more images under achievements soon.
+                    </p>
+                </div>
+            </article>
+        </div>
+        <div class="back-button-container">
+            <button @click="gotoHome" style="all: unset;">
+                <article class="home-text" style="width: 350px;">
+                    <p class="extra-text" style="text-align: center;"> << Back to the homepage</p>
+                </article>
+            </button>
+        </div>
     </main>
 </template>

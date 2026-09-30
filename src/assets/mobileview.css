@@ -148,6 +148,20 @@
   gap: 2em;
   justify-self: center;
 }
+
+.givemore_logo{
+  margin-left: auto;
+  margin-right: auto;
+  justify-self: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.itch_io_link{
+  width: 350px;
+  justify-self: center;
+}
+
 }
 
 @media (width <= 600px) {
@@ -335,6 +349,21 @@ body::before{
   display: grid;
   grid-template-rows: auto auto;  
   gap: 2em;
+  justify-self: center;
+}
+
+.givemore_logo{
+  margin-left: auto;
+  margin-right: auto;
+  justify-self: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.itch_io_link{
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
   justify-self: center;
 }
 

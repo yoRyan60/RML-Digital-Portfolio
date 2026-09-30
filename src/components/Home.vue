@@ -4,33 +4,29 @@ export default {
         scrollToTop(){
             window.scrollTo(0,0);
         },
-        gotoIntroduction(){
+        gotoMyProfile(){
             this.scrollToTop();
-            this.$router.push('/Introduction')
+            this.$router.push('/MyProfile')
         },
         gotoAbout(){
             this.scrollToTop();
             this.$router.push('/About')
         },
-        gotoMyResume(){
+        gotoPortfolio(){
             this.scrollToTop();
-            this.$router.push('/MyResume')
+            this.$router.push('/Portfolio')
         },
-        gotoAcademicWork(){
+        gotoWorkExperience(){
             this.scrollToTop();
-            this.$router.push('/AcademicWork')
+            this.$router.push('/WorkExperience')
         },
-        gotoInternshipLearning(){
+        gotoMiscellaneous(){
             this.scrollToTop();
-            this.$router.push('/InternshipLearning')
+            this.$router.push('/Miscellaneous')
         },
-        gotoReflectionsOnCollege(){
+        gotoAchievements(){
             this.scrollToTop();
-            this.$router.push('/ReflectionsOnCollege')
-        },
-        gotoFeedback(){
-            this.scrollToTop();
-            this.$router.push('/Feedback')
+            this.$router.push('/Achievements')
         },
     },  
 }
@@ -46,40 +42,46 @@ export default {
         </div>
     </header>
     <main class="grid-container" style="font-family: Retro Computer; color: white;">
-        <button @click="gotoIntroduction" style="all: unset;">
-            <article class="home-text">
-                <h1><span class="selector">>> </span> Introduction</h1>
-                    <p class="extra-text">Is where I introduce myself and talk about my life experiences.</p>
+        <button @click="gotoMyProfile" style="all: unset;">
+            <article class="home-text" style="background-image: url(/src/assets/images/myprofile_pixel_icon.png); 
+            background-repeat:no-repeat; background-position: right; background-size: 12rem;">
+                <h1><span class="selector">>> </span> My Profile</h1>
+                    <p class="extra-text">This is where I give a brief background of myself. Which also includes hobbies and interests.</p>
+            </article>
+        </button>
+        <button @click="gotoPortfolio" style="all: unset;">
+            <article class="home-text" style="background-image: url(/src/assets/images/portfolio_pixel_icon.png); 
+            background-repeat:no-repeat; background-position: right; background-size: 12rem;">
+                <h1><span class="selector">>> </span> Portfolio</h1>
+                    <p class="extra-text">Stuff I've made either on my own or with a group of people.</p>
+            </article>
+        </button>
+        <button @click="gotoWorkExperience" style="all: unset;">
+            <article class="home-text" style="background-image: url(/src/assets/images/workexperience_pixel_icon.png); 
+            background-repeat:no-repeat; background-position: right; background-size: 12rem;">
+                <h1><span class="selector">>> </span> Work Experience</h1>
+                    <p class="extra-text">Recent work experiences like my OJT can be viewed here.</p>
+            </article>
+        </button>
+        <article @click="gotoAchievements" class="home-text" style="background-image: url(/src/assets/images/achievements_pixel_icon.png); 
+            background-repeat:no-repeat; background-position: right; background-size: 12rem;">
+            <h1><span class="selector">>> </span> Achievements</h1>
+                <p class="extra-text">Contains various recent awards/certificates I've received. Notably completion certificates, honors, etc.</p>
+        </article>
+        <button @click="gotoMiscellaneous" style="all: unset;">
+            <article class="home-text" style="background-image: url(/src/assets/images/miscellaneous_pixel_icon.png); 
+            background-repeat:no-repeat; background-position: right; background-size: 12rem;">
+                <h1><span class="selector">>> </span> Miscellaneous</h1>
+                    <p class="extra-text">Random stuff/Info dump where I either have some tips or advice on varous things or simply just things I want to mention here.</p>
             </article>
         </button>
         <button @click="gotoAbout" style="all: unset;">
-            <article class="home-text">
-                <h1><span class="selector">>> </span> About</h1>
-                    <p class="extra-text">Here you can know some things about this website/portfolio.</p>
+            <article class="home-text" style="background-image: url(/src/assets/images/about&updates_pixel_icon.png); 
+            background-repeat:no-repeat; background-position: right; background-size: 12rem;">
+                <h1><span class="selector">>> </span> About/Updates</h1>
+                    <p class="extra-text">Here you'll see general info and updates on this website.</p>
             </article>
         </button>
-        <button @click="gotoAcademicWork" style="all: unset;">
-            <article class="home-text">
-                <h1><span class="selector">>> </span> Academic Work</h1>
-                    <p class="extra-text">Things that I'm proud of making or contributing to in my time in college.</p>
-            </article>
-        </button>
-        <button @click="gotoInternshipLearning" style="all: unset;">
-            <article class="home-text">
-                <h1><span class="selector">>> </span> Internship Learning</h1>
-                    <p class="extra-text">Things I've learned from OJT, as well showing some of the tasks that I did.</p>
-            </article>
-        </button>
-        <button @click="gotoReflectionsOnCollege" style="all: unset;">
-            <article class="home-text">
-                <h1><span class="selector">>> </span> Reflections on College</h1>
-                    <p class="extra-text">What to do next once I finish college, my lifelong goals.</p>
-            </article>
-        </button>
-        <article @click="gotoFeedback" class="home-text">
-            <h1><span class="selector">>> </span> Feedback</h1>
-                <p class="extra-text">Wanna leave a comment? Click here to fill out a form.</p>
-        </article>
         <!--This last option is supposedly centered in the grid, putting a button tag around it removes that centering which I can't prevent atm.-->
     </main>
 </template>

@@ -15,7 +15,7 @@ export default {
 <template>
     <main>
         <div class="heading-container">
-            <h1 style="font-family: Retro Computer; color:greenyellow">Introduction</h1>
+            <h1 style="font-family: Retro Computer; color:greenyellow">My Profile</h1>
         </div>
         <div class="back-button-container">
             <button @click="gotoHome" style="all: unset;">
@@ -35,7 +35,7 @@ export default {
                     </p>
                     <br>
                     <p class="container-description-text"> 
-                       I've had experience coding in 
+                       I've had experience coding in the following: 
                        <span style="color: greenyellow">C
                         <span style="font-family: Retro Computer; font-size: 16px;">#</span>, Java</span>. As well as one’s 
                        for web development like <span style="color: greenyellow">HTML, CSS, </span>and 

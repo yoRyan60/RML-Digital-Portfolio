@@ -17,7 +17,7 @@ export default {
 <template>
     <main>
         <div class="heading-container">
-            <h1 style="font-family: Retro Computer; color:greenyellow">Academic Work</h1>
+            <h1 style="font-family: Retro Computer; color:greenyellow">Portfolio</h1>
         </div>
         <div class="back-button-container">
             <button @click="gotoHome" style="all: unset;">
@@ -27,8 +27,9 @@ export default {
             </button>
         </div>
         <div class="container-description" style="text-align: left;">
-            <article> 
-                <img class="img-right" src="/src/assets/images/GiveMore_Logo.png" style="width: 350px">
+            <article>
+                <h1 style="font-family: Retro Computer; color:greenyellow">2024</h1>
+                <img class="givemore_logo" src="/src/assets/images/GiveMore_Logo.png">
                 <h2 class="container-description-header">Capstone - GiveMore</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
@@ -70,45 +71,45 @@ export default {
                     </p>
                     <br>
                 </div>
-                <Splide :options="{ rewind: true }">
+                <Splide :options="{ rewind: true, autoplay: true, interval: number = 6000, pauseOnFocus: true, pauseOnHover: true }">
                     <SplideSlide>
-                        <img src="/src/assets/images/AcademicWork_images/statistics1.jpg" alt="statistics1">
+                        <img src="/src/assets/images/Portfolio_images/statistics1.jpg" alt="statistics1">
                     </SplideSlide>
                     <SplideSlide>
-                        <img src="/src/assets/images/AcademicWork_images/statistics2.jpg" alt="statistics2">
+                        <img src="/src/assets/images/Portfolio_images/statistics2.jpg" alt="statistics2">
                     </SplideSlide>
                     <SplideSlide>
-                        <img src="/src/assets/images/AcademicWork_images/statistics3.jpg" alt="statistics3">
+                        <img src="/src/assets/images/Portfolio_images/statistics3.jpg" alt="statistics3">
                     </SplideSlide>
                     <SplideSlide>
-                        <img src="/src/assets/images/AcademicWork_images/statistics4.jpg" alt="statistics4">
+                        <img src="/src/assets/images/Portfolio_images/statistics4.jpg" alt="statistics4">
                     </SplideSlide>
                     <SplideSlide>
-                        <img src="/src/assets/images/AcademicWork_images/statistics5.jpg" alt="statistics5">
+                        <img src="/src/assets/images/Portfolio_images/statistics5.jpg" alt="statistics5">
                     </SplideSlide>
                     <SplideSlide>
-                        <img src="/src/assets/images/AcademicWork_images/statistics6.jpg" alt="statistics6">
+                        <img src="/src/assets/images/Portfolio_images/statistics6.jpg" alt="statistics6">
                     </SplideSlide>
                     <SplideSlide>
-                        <img src="/src/assets/images/AcademicWork_images/statistics7.jpg" alt="statistics7">
+                        <img src="/src/assets/images/Portfolio_images/statistics7.jpg" alt="statistics7">
                     </SplideSlide>
                     <SplideSlide>
-                        <img src="/src/assets/images/AcademicWork_images/statistics8.jpg" alt="statistics8">
+                        <img src="/src/assets/images/Portfolio_images/statistics8.jpg" alt="statistics8">
                     </SplideSlide>
                     <SplideSlide>
-                        <img src="/src/assets/images/AcademicWork_images/statistics9.jpg" alt="statistics9">
+                        <img src="/src/assets/images/Portfolio_images/statistics9.jpg" alt="statistics9">
                     </SplideSlide>
                 </Splide>
             </article>
         </div>
         <div class="container-description" style="text-align: left;">
             <article> 
-                <img class="img-right" src="/src/assets/images/GenericSpaceShooter_Title.png">
+                <h1 style="font-family: Retro Computer; color:greenyellow">2021</h1>
                 <h2 class="container-description-header">Previous Final Project - Making a Game</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
                         Generic Space Shooter was a project made around my 2nd term in 1st year college. 
-                        We needed to make a game with the use of an IDE called Visual Studio, which uses the C<span style="font-family: Smallest Pixel-7; font-size: 20px;">#</span> programming language.
+                        We needed to make a game with the use of an IDE like Visual Studio 2019, which uses the C<span style="font-family: Smallest Pixel-7; font-size: 20px;">#</span> programming language.
                     </p>
                     <br>
                     <p class="container-description-text"> 
@@ -120,10 +121,35 @@ export default {
                         Then a simple scoring system as a mechanic to keep track of how long you've survived.
                     </p>
                     <br>
+                    <p class="container-description-text">
+                        You can check it out here:
+                    </p>
+                    <br>
                 </div>
-                <div class="genericspaceshooterimages" style="justify-self: center;">
-                    <img class="img-left" src="/src/assets/images/GenericSpaceShooter (GIF-1).gif" style="width: 350px;">
-                    <img class="img-left" src="/src/assets/images/GenericSpaceShooter (GIF-2).gif" style="width: 350px;">
+                <div style="text-align: center;">
+                    <iframe class="itch_io_link" frameborder="0" src="https://itch.io/embed/5036004?linkback=true&amp;border_width=0&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=61ff75&amp;border_color=333333" width="600" height="165"></iframe>
+                </div>
+                <div class="genericspaceshooterimages" style="width: 85%; margin-left: auto; margin-right: auto;">
+                    <Splide :options="{ rewind: true, perPage: 2, autoplay: true, interval: number = 4000, pauseOnFocus: true, pauseOnHover: true }">
+                        <SplideSlide>
+                            <img src="/src/assets/images/GenericSpaceShooter (IMG-1).png" alt="generic_space_shooter_image_1">
+                        </SplideSlide>
+                        <SplideSlide>
+                            <img src="/src/assets/images/GenericSpaceShooter (IMG-3).png" alt="generic_space_shooter_image_3">
+                        </SplideSlide>
+                        <SplideSlide>
+                            <img src="/src/assets/images/GenericSpaceShooter (IMG-4).png" alt="generic_space_shooter_image_4">
+                        </SplideSlide>
+                        <SplideSlide>
+                            <img src="/src/assets/images/GenericSpaceShooter (IMG-5).png " alt="generic_space_shooter_image_5">
+                        </SplideSlide>
+                        <SplideSlide>
+                            <img src="/src/assets/images/GenericSpaceShooter (GIF-1).gif " alt="generic_space_shooter_gif_1">
+                        </SplideSlide>
+                        <SplideSlide>
+                            <img src="/src/assets/images/GenericSpaceShooter (GIF-2).gif " alt="generic_space_shooter_gif_2">
+                        </SplideSlide>
+                    </Splide>
                 </div>
             </article>
         </div>
