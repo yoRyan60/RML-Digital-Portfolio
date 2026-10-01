@@ -44,7 +44,7 @@ export default {
                     </p>
                     <Splide :options="{ rewind: true, autoplay: true, interval: number = 4000, pauseOnFocus: true, pauseOnHover: true }">
                         <SplideSlide>
-                            <img src="/src/assets/images/CiscoNetworkingAcademy_IntroductiontoCybersecurity_Certificate_LimRyan.png" alt="ciscocert1">
+                            <img src="/src/assets/images/Achievements_images/CiscoNetworkingAcademy_IntroductiontoCybersecurity_Certificate_LimRyan.png" alt="ciscocert1">
                         </SplideSlide>
                     </Splide>
                 </div>
@@ -76,7 +76,7 @@ export default {
                         Here's proof for the awards I received below:
                     </p>
                     <br>
-                    <img class="img-center" style="width: 100%;" src="/src/assets/images/SMIT_Honors_LimRyan.png">
+                    <img class="img-center" style="width: 100%;" src="/src/assets/images/Achievements_images/SMIT_Honors_LimRyan.png">
                 </div>
                 <h2 class="container-description-header">On the Job Training - Certificate of Completion</h2>
                 <div class="text-wrapper">
@@ -85,7 +85,7 @@ export default {
                         I received the certificate of completion shown below:
                     </p>
                     <br>
-                    <img class="img-center" style="width: 100%;" src="/src/assets/images/WorkExperience_images/OJT_certificate.jpg">
+                    <img class="img-center" style="width: 100%;" src="/src/assets/images/Achievements_images/OJT_certificate.jpg">
                 </div>
             </article>
          </div>

@@ -26,7 +26,7 @@ export default {
         </div>
         <div class="container-description" style="text-align: left;">
             <article> 
-                <img class="img-left" src="/src/assets/images/RayanLem.png">
+                <img class="img-left" src="/src/assets/images/MyProfile_images/RayanLem.png">
                 <h2 class="container-description-header">About Me</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
@@ -54,7 +54,7 @@ export default {
         </div>
         <div class="container-description" style="text-align: right;">
             <article> 
-                <img class="img-right" src="/src/assets/images/computer_icon.png">
+                <img class="img-right" src="/src/assets/images/MyProfile_images/computer_icon.png">
                 <h2 class="container-description-header">Interests</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
@@ -71,7 +71,7 @@ export default {
         </div>
         <div class="container-description" style="text-align: left;">
             <article> 
-                <img class="img-left" src="/src/assets/images/game_controller_pixel_icon.png">
+                <img class="img-left" src="/src/assets/images/MyProfile_images/game_controller_pixel_icon.png">
                 <h2 class="container-description-header">Hobbies</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 

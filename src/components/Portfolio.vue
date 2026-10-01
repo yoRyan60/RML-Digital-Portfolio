@@ -29,7 +29,7 @@ export default {
         <div class="container-description" style="text-align: left;">
             <article>
                 <h1 style="font-family: Retro Computer; color:greenyellow">2024</h1>
-                <img class="givemore_logo" src="/src/assets/images/GiveMore_Logo.png">
+                <img class="givemore_logo" src="/src/assets/images/Portfolio_images/GiveMore_Logo.png">
                 <h2 class="container-description-header">Capstone - GiveMore</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
@@ -132,22 +132,22 @@ export default {
                 <div class="genericspaceshooterimages" style="width: 85%; margin-left: auto; margin-right: auto;">
                     <Splide :options="{ rewind: true, perPage: 2, autoplay: true, interval: number = 4000, pauseOnFocus: true, pauseOnHover: true }">
                         <SplideSlide>
-                            <img src="/src/assets/images/GenericSpaceShooter (IMG-1).png" alt="generic_space_shooter_image_1">
+                            <img src="/src/assets/images/Portfolio_images/GenericSpaceShooter (IMG-1).png" alt="generic_space_shooter_image_1">
                         </SplideSlide>
                         <SplideSlide>
-                            <img src="/src/assets/images/GenericSpaceShooter (IMG-3).png" alt="generic_space_shooter_image_3">
+                            <img src="/src/assets/images/Portfolio_images/GenericSpaceShooter (IMG-3).png" alt="generic_space_shooter_image_3">
                         </SplideSlide>
                         <SplideSlide>
-                            <img src="/src/assets/images/GenericSpaceShooter (IMG-4).png" alt="generic_space_shooter_image_4">
+                            <img src="/src/assets/images/Portfolio_images/GenericSpaceShooter (IMG-4).png" alt="generic_space_shooter_image_4">
                         </SplideSlide>
                         <SplideSlide>
-                            <img src="/src/assets/images/GenericSpaceShooter (IMG-5).png " alt="generic_space_shooter_image_5">
+                            <img src="/src/assets/images/Portfolio_images/GenericSpaceShooter (IMG-5).png " alt="generic_space_shooter_image_5">
                         </SplideSlide>
                         <SplideSlide>
-                            <img src="/src/assets/images/GenericSpaceShooter (GIF-1).gif " alt="generic_space_shooter_gif_1">
+                            <img src="/src/assets/images/Portfolio_images/GenericSpaceShooter (GIF-1).gif " alt="generic_space_shooter_gif_1">
                         </SplideSlide>
                         <SplideSlide>
-                            <img src="/src/assets/images/GenericSpaceShooter (GIF-2).gif " alt="generic_space_shooter_gif_2">
+                            <img src="/src/assets/images/Portfolio_images/GenericSpaceShooter (GIF-2).gif " alt="generic_space_shooter_gif_2">
                         </SplideSlide>
                     </Splide>
                 </div>

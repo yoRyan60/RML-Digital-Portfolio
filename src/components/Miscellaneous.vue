@@ -27,7 +27,7 @@ export default {
         <div class="container-description" style="text-align: left">
             <article> 
                 <h2 class="container-description-header" style="font-family: Retro Computer;">Reflections on College</h2>
-                <img class="img-right" src="/src/assets/images/pixelbook_icon.png">
+                <img class="img-right" src="/src/assets/images/Miscellaneous_images/pixelbook_icon.png">
                 <h2 class="container-description-header">What I've learned</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
@@ -73,7 +73,7 @@ export default {
                 </div>
                 <br>
                 <div style="text-align: center;">
-                <img class="img-center" src="/src/assets/images/lightbulbpixel_icon.png">
+                <img class="img-center" src="/src/assets/images/Miscellaneous_images/lightbulbpixel_icon.png">
                 <h2 class="container-description-header">Commitment Statement</h2>
                 <br>
                 <div class="text-wrapper">
