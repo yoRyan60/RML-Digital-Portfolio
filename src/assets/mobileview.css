@@ -162,6 +162,22 @@
   justify-self: center;
 }
 
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer{
+  font-family: Smallest-Pixel 7;
+  font-size: 20px;
+  color: greenyellow;
+  background-color: black;
+  padding: 12px;
+  width: 100%;
+  content: "Hello";
+  display: inline-block;
+}
 }
 
 @media (width <= 600px) {
@@ -293,8 +309,16 @@ li{
   flex-direction: column;
   min-height: 100vh;
 }
-.footer{
-  font-size: 14px;
+
+footer{
+  font-family: Smallest-Pixel 7;
+  font-size: 12px;
+  color: greenyellow;
+  background-color: black;
+  padding: 200px;
+  width: 100%;
+  content: "Hello";
+  display: inline-block;
 }
 .nav-divider{
   font-size: 8px;

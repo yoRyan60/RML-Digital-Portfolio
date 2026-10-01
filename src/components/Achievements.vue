@@ -15,7 +15,7 @@ export default {
 <template>
     <main>
         <div class="heading-container">
-            <h1 style="font-family: Retro Computer; color:greenyellow; text-align: center;">Acheivements
+            <h1 style="font-family: Retro Computer; color:greenyellow; text-align: center;">Achievements
                 <br>
                 <p style="font-family: Smallest Pixel-7; font-size: 1rem; color:greenyellow; text-align: center;">
                     (Some of these may not have the corresponding image due to them having more sensitive/confidential info.)

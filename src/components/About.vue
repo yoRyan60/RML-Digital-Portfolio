@@ -58,11 +58,15 @@ export default {
                 <h2 class="container-description-header">10/1/2026</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
-                        Added this update log section, I may add new logs here if necessary. 
+                        Fixed the missing main menu icons on the homepage buttons after 5 attempts (yes I was counting).
                     </p>
                     <br>
                     <p class="container-description-text"> 
                         Finished most of the major UI changes to the website. Will soon add more images under achievements soon.
+                    </p>
+                    <br>
+                    <p class="container-description-text"> 
+                        Added this update log section, I may add new logs here if necessary. 
                     </p>
                 </div>
             </article>
