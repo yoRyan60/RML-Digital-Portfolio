@@ -58,7 +58,7 @@ export default {
                 <h2 class="container-description-header">10/1/2026</h2>
                 <div class="text-wrapper">
                     <p class="container-description-text"> 
-                        Fixed the missing main menu icons on the homepage buttons after 5 attempts (yes I was counting).
+                        Fixed the missing main menu icons on the homepage buttons after 4 attempts (yes I was counting).
                     </p>
                     <br>
                     <p class="container-description-text"> 
