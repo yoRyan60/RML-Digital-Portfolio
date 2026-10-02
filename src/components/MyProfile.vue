@@ -39,7 +39,8 @@ export default {
                        <span style="color: greenyellow">C#, Java</span>. As well as one’s 
                        for web development like <span style="color: greenyellow">HTML, CSS, </span>and 
                        <span style="color: greenyellow">JavaScript</span>. 
-                       notable ones being <span style="color: greenyellow">Node.js</span> and 
+                       More recent ones being <span style="color: greenyellow">Node.js, </span> 
+                       <span style="color: greenyellow">Typescript</span> and 
                        <span style="color: greenyellow">Vue.js</span>.
                     </p>
                     <br>

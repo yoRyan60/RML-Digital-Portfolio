@@ -107,7 +107,7 @@
     color: greenyellow;
   }
   .container-description-text{
-    font-size: 11.5px;
+    font-size: 12px;
     font-family: Eight Bit Dragon;
     color: white
   }
@@ -115,7 +115,7 @@
     float: right;
     margin-left: 0;
     padding: 10px;
-    width: 30%;
+    width: 200px;
     height: auto;
   }
 
@@ -334,7 +334,7 @@ body::before{
   padding-bottom: 100%;
 }
 .container-description-text{
-  font-size: 11.5px;
+  font-size: 12px;
   font-family: Eight Bit Dragon;
   color: white
 }
