@@ -36,8 +36,7 @@ export default {
                     <br>
                     <p class="container-description-text"> 
                        I've had experience coding in the following: 
-                       <span style="color: greenyellow">C
-                        <span style="font-family: Retro Computer; font-size: 16px;">#</span>, Java</span>. As well as one’s 
+                       <span style="color: greenyellow">C#, Java</span>. As well as one’s 
                        for web development like <span style="color: greenyellow">HTML, CSS, </span>and 
                        <span style="color: greenyellow">JavaScript</span>. 
                        notable ones being <span style="color: greenyellow">Node.js</span> and 

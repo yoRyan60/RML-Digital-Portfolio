@@ -45,6 +45,7 @@ export default {
                     <p class="container-description-text" style="font-style: italic;"> 
                         <span style="color: greenyellow">Trivia: </span> The first iteration of this website was made with 
                         <span style="color: greenyellow;"><a href="https://sites.google.com/benilde.edu.ph/rml-digitalportfolio/home" target="_blank">Google Sites.</a></span>
+                        (So uh the link doesn't work anymore, sorry about that.)
                     </p>
                 </div>
             </article>
@@ -56,6 +57,22 @@ export default {
             <article>
                 <div style="text-align: center;">
                     <img class="img-center" src="/src/assets/images/About_and_Updates_images/updates_pixel_icon.png">
+                </div>
+                <h2 class="container-description-header">10/3/2026</h2>
+                <div class="text-wrapper">
+                    <p class="container-description-text"> 
+                        Changed some fonts to make it a bit more pleasing to read certain walls of text.
+                    </p>
+                    <br>
+                    <p class="container-description-text"> 
+                        Changed logo and fonts for the navbar. Also added "Portfolio" to the navbar options.
+                    </p> 
+                    <br>
+                    <p class="container-description-text"> 
+                        Realized that my old google sites version of this portfolio is no longer working therefore I'm a bit
+                        sad about it.
+                    </p>
+                    <br>
                 </div>
                 <h2 class="container-description-header">10/1/2026</h2>
                 <div class="text-wrapper">

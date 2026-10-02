@@ -68,7 +68,7 @@
     display: inline;
     margin: -0.5px;
     padding: 5px;
-    font-size: 12px;
+    font-size: 16px;
   }
   .nav-divider{
     font-size: 10px;
@@ -107,8 +107,8 @@
     color: greenyellow;
   }
   .container-description-text{
-    font-size: 9.5px;
-    font-family: DePixelHalbfett;
+    font-size: 11.5px;
+    font-family: Eight Bit Dragon;
     color: white
   }
   .img-right{
@@ -274,7 +274,7 @@ li{
   display: inline;
   margin: -0.5px;
   padding: 5px;
-  font-size: 10px;
+  font-size: 14px;
 }
 
 .text-wrapper{  
@@ -334,8 +334,8 @@ body::before{
   padding-bottom: 100%;
 }
 .container-description-text{
-  font-size: 9.5px;
-  font-family: DePixelHalbfett;
+  font-size: 11.5px;
+  font-family: Eight Bit Dragon;
   color: white
 }
 .container-description-header{

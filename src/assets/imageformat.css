@@ -46,6 +46,14 @@
   margin: 0;
 }
 
+.RML-Digital-Portfolio_logo{
+  display: block; 
+  float: inline-start;
+  margin-left: -50px; 
+  margin-right: 0.5rem;
+}
+
+
 .givemore_logo{
   width: 350px;
   float: right;

@@ -42,7 +42,7 @@ export default {
                         You can check out the website here:
                     </p>
                     <br>
-                    <p style="font-family: DePixelHalbfett; color: greenyellow; font-size: 12px; font-style: italic; text-decoration: underline;"> 
+                    <p style="font-family: Eight Bit Dragon; color: greenyellow; font-style: italic; text-decoration: underline;"> 
                         <a href="https://isproj2.vercel.app/" target="_blank">GiveMore - Give to each other to make the world better.</a>
                     </p>
                 </div>
@@ -62,7 +62,7 @@ export default {
                         Also all of this was possible thanks to ReCharts, the library I used to create these charts containing data from out database. Check their stuff out in the link below:
                     </p>
                     <br>
-                    <p style="font-family: DePixelHalbfett; color: greenyellow; font-size: 12px; font-style: italic; text-decoration: underline;"> 
+                    <p style="font-family: Eight Bit Dragon; color: greenyellow; font-style: italic; text-decoration: underline;"> 
                         <a href="https://recharts.org/en-US/" target="_blank">ReCharts</a>
                     </p>
                     <br>

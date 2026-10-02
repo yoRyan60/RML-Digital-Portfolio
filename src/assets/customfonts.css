@@ -14,4 +14,16 @@
     font-family: "Retro Computer";
     src: local("Retro Computer"), url("./fonts/retro_computer_personal_use.ttf"), 
     format("truetype");
-} 
+}
+
+@font-face { 
+    font-family: "Modern DOS";
+    src: local("Modern DOS"), url("./fonts/ModernDOS8x14.ttf"), 
+    format("truetype");
+}
+
+@font-face { 
+    font-family: "Eight Bit Dragon";
+    src: local("Eight Bit Dragon"), url("./fonts/eight-bit-dragon.otf"), 
+    format("opentype");
+}

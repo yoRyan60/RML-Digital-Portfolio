@@ -12,19 +12,13 @@ a{
   margin-bottom: 25px;
 }
 
-.img-logo{
-  position:  absolute;
-  translate: -100% -35%;
-  scale: 75%;
-}
-
 li{
   color: black;
   list-style-type: none;
   display: inline;
   margin: -0.5px;
   padding: 5px;
-  font-size: 12px;
+  font-size: 16px;
 }
 li:hover{
   display: inline;
@@ -139,8 +133,8 @@ article:hover .selector{
 }
 
 .container-description-text{
-  font-size: 12px;
-  font-family: DePixelHalbfett;
+  font-size: 16px;
+  font-family: Eight Bit Dragon;
   color: white
 }
 
