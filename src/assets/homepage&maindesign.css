@@ -16,9 +16,11 @@ li{
   color: black;
   list-style-type: none;
   display: inline;
-  margin: -0.5px;
+  margin-right: 0.5rem;
   padding: 5px;
   font-size: 16px;
+  transition: color 0.5s, background-color 0.5s;
+  animation-fill-mode: forwards;
 }
 li:hover{
   display: inline;

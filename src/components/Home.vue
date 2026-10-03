@@ -35,7 +35,7 @@ export default {
 <template>
     <header style="text-align: center; padding-top: 50px;">
         <div class="container">
-            <p class="typewritter-effect" style="font-family: Retro Computer; color: white;">Hello there. It's me, Ryan.</p>
+            <p class="typewritter-effect" style="font-family: Eight Bit Dragon; color: white;">Hello there. It's me, Ryan.</p>
         </div>
         <div class="home-container-description">
             <p style="font-family: Smallest Pixel-7; color: greenyellow;">Take a look around my portfolio by clicking on the corresponding options.</p>

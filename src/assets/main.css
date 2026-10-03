@@ -27,7 +27,7 @@ nav{
 }
 
 .nav-title{
-  color: black;
+  color: rgb(215, 21, 21);
   list-style-type: none;
   display: inline;
   margin: -0.5px;
@@ -56,27 +56,14 @@ footer{
 
 .footer-link-GitHub{
   float: right;
-  background-image: url(/src/assets/images/GitHub_logo.png);
+  background-image: url("/src/assets/images/GitHub_logo.png");
   transition: background-image 0.5s;
   animation-fill-mode: forwards;
 }
 
 .footer-link-GitHub:hover{
   float: right;
-  background-image: url(/src/assets/images/GitHub_logo_hover.png);
-  cursor: pointer;
-}
-
-.footer-link-Discord{
-  float: right;
-  background-image: url(/src/assets/images/Discord_logo.png);
-  transition: background-image 0.5s;
-  animation-fill-mode: forwards;
-}
-
-.footer-link-Discord:hover{
-  float: right;
-  background-image: url(/src/assets/images/Discord_logo_hover.png);
+  background-image: url("/src/assets/images/GitHub_logo_hover.png");
   cursor: pointer;
 }
 

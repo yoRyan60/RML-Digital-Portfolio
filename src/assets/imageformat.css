@@ -46,13 +46,29 @@
   margin: 0;
 }
 
-.RML-Digital-Portfolio_logo{
-  display: block; 
+.RML-Digital-Portfolio_logo_container{ 
+  /*This mainly allows images to change on hover, but really it just makes another image appear on top*/
+  position: relative;
   float: inline-start;
-  margin-left: -50px; 
+  margin-left: -50px;
+  width: fit-content;
+  height: fit-content;
   margin-right: 0.5rem;
 }
 
+.topimage{ 
+  /*Expect this to be the resulting image on hover*/
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.topimage:hover{
+  opacity: 1;
+}
 
 .givemore_logo{
   width: 350px;
